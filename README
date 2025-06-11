@@ -1,0 +1,165 @@
+# Riftbound Card Memory Quiz - Complete Setup Guide
+
+This guide will help you set up the integrated Riftbound scraper and quiz system.
+
+## Overview
+
+The integrated system consists of:
+1. **Python Scraper** (`riftbound_scraper.py`) - Scrapes cards from the website
+2. **Flask Server** (`riftbound_server.py`) - Bridges between the web app and scraper
+3. **Web App** (`index.html`) - The quiz interface with integrated scraping
+
+## File Structure
+
+Create a folder for your project with these files:
+```
+riftbound-quiz/
+├── riftbound_scraper.py    # The Python scraper
+├── riftbound_server.py      # The Flask server
+├── index.html               # The integrated web app
+└── riftbound_cards.json     # Generated card database (created after scraping)
+```
+
+## Step-by-Step Setup
+
+### 1. Install Python Dependencies
+
+Open a terminal/command prompt in your project folder and run:
+
+```bash
+pip install flask flask-cors selenium beautifulsoup4 requests
+```
+
+### 2. Install Browser Driver
+
+#### For Chrome:
+1. Check your Chrome version (Help → About Google Chrome)
+2. Download matching ChromeDriver from https://chromedriver.chromium.org/
+3. Extract and place in your project folder or add to system PATH
+
+#### For Firefox:
+1. Download GeckoDriver from https://github.com/mozilla/geckodriver/releases
+2. Extract and place in your project folder or add to system PATH
+
+### 3. Save the Files
+
+1. Save the Python scraper code as `riftbound_scraper.py`
+2. Save the Flask server code as `riftbound_server.py`
+3. Save the HTML app as `index.html`
+
+### 4. Start the Flask Server
+
+In your terminal, run:
+
+```bash
+python riftbound_server.py
+```
+
+You should see:
+```
+🎮 Riftbound Flask Server
+==================================================
+Starting server on http://localhost:5000
+```
+
+### 5. Open the Web App
+
+1. Open your web browser
+2. Go to http://localhost:5000
+3. The integrated app will load
+
+## Using the Integrated System
+
+### Method 1: Automatic Scraping (Recommended)
+
+1. Click **"Start Automatic Scraping"**
+2. Wait for the scraper to complete (2-5 minutes)
+3. Cards will automatically load when done
+4. Start practicing!
+
+### Method 2: Check for Existing Cards
+
+If you've already scraped cards before:
+1. Click **"Check for Existing Cards"**
+2. If found, they'll load automatically
+
+### Method 3: Manual Upload
+
+If automatic scraping doesn't work:
+1. Switch to the "Manual Method" tab
+2. Run the scraper manually: `python riftbound_scraper.py`
+3. Upload the generated `riftbound_cards.json` file
+
+## Troubleshooting
+
+### "Could not connect to server"
+- Make sure the Flask server is running (`python riftbound_server.py`)
+- Check that port 5000 is not blocked by firewall
+- Try accessing http://localhost:5000 directly
+
+### "Chrome driver failed"
+- Ensure ChromeDriver version matches your Chrome version
+- Try running with Firefox instead
+- Add `--no-sandbox` flag in the scraper if on Linux
+
+### "No cards scraped"
+- The website structure may have changed
+- Check your internet connection
+- Try running the scraper manually to see error messages
+
+### "Python not found"
+- Make sure Python is installed and in your PATH
+- Try using `python3` instead of `python`
+
+## Features
+
+### Quiz Features:
+- **Card Reveal**: Click cards to show/hide descriptions
+- **Color Filtering**: Practice specific card types
+- **Keyboard Controls**: 
+  - Arrow keys to navigate
+  - Space/Enter to reveal cards
+- **Randomize**: Shuffle deck order
+- **Progress Tracking**: See how many cards you've viewed
+
+### Server Features:
+- **Real-time Status**: See scraping progress
+- **Automatic Loading**: Cards load immediately after scraping
+- **Error Handling**: Clear error messages
+- **CORS Support**: Works with local development
+
+## Advanced Options
+
+### Running on Different Port
+
+Edit `riftbound_server.py` and change:
+```python
+app.run(debug=True, port=5000)  # Change 5000 to your desired port
+```
+
+### Headless Mode
+
+The scraper runs in headless mode by default. To see the browser:
+1. Edit `riftbound_server.py`
+2. Change: `['python', 'riftbound_scraper.py', '--headless']`
+3. To: `['python', 'riftbound_scraper.py']`
+
+### Custom Scraping Options
+
+Modify the scraper command in `riftbound_server.py`:
+```python
+# Add custom output file
+['python', 'riftbound_scraper.py', '--output', 'custom_cards.json']
+```
+
+## Security Note
+
+This server is designed for local development only. Do not expose it to the internet without proper security measures.
+
+## Support
+
+If you encounter issues:
+1. Check the terminal/console for error messages
+2. Ensure all files are in the same directory
+3. Verify all dependencies are installed
+4. Try the manual scraping method as a fallback

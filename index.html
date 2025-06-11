@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riftbound Card Memory Quiz - Integrated</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1e2328 100%);
+            color: #cdbe91;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            background: rgba(30, 35, 40, 0.9);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #c89b3c;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1 {
+            color: #f0e6d2;
+            text-shadow: 0 0 20px #c89b3c;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .main-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .scraper-section {
+            background: rgba(30, 35, 40, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #c89b3c;
+            margin-bottom: 20px;
+        }
+        
+        .controls {
+            background: rgba(30, 35, 40, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #c89b3c;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .filter-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .color-filter {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .color-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(12, 31, 31, 0.8);
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .color-checkbox:hover {
+            background: rgba(200, 155, 60, 0.2);
+        }
+        
+        .color-checkbox input {
+            cursor: pointer;
+        }
+        
+        .btn {
+            background: #c89b3c;
+            color: #0c1f1f;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn:hover {
+            background: #f0e6d2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(200, 155, 60, 0.4);
+        }
+        
+        .btn:disabled {
+            background: #5c5b57;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-secondary {
+            background: #0596aa;
+        }
+        
+        .btn-secondary:hover {
+            background: #07b8d4;
+        }
+        
+        .btn-danger {
+            background: #c8354e;
+        }
+        
+        .btn-danger:hover {
+            background: #e8455f;
+        }
+        
+        .quiz-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            min-height: 500px;
+        }
+        
+        .card-container {
+            position: relative;
+            width: 300px;
+            height: 420px;
+            perspective: 1000px;
+        }
+        
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+        
+        .card.revealed {
+            transform: rotateY(180deg);
+        }
+        
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        
+        .card-front {
+            background: #1e2328;
+            border: 2px solid #c89b3c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .card-back {
+            transform: rotateY(180deg);
+            background: #0c1f1f;
+            border: 2px solid #f0e6d2;
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+        
+        .card-cover {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40%;
+            background: linear-gradient(to top, #1e2328 70%, transparent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s ease;
+        }
+        
+        .card.revealed .card-cover {
+            opacity: 0;
+        }
+        
+        .question-mark {
+            font-size: 60px;
+            color: #c89b3c;
+            text-shadow: 0 0 20px #c89b3c;
+        }
+        
+        .card-info {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            background: rgba(30, 35, 40, 0.9);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .card-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #f0e6d2;
+            margin-bottom: 5px;
+        }
+        
+        .color-badges {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+        
+        .color-badge {
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .color-red { background: #c8354e; color: white; }
+        .color-blue { background: #0596aa; color: white; }
+        .color-green { background: #4c9c5c; color: white; }
+        .color-yellow { background: #f9c74f; color: black; }
+        .color-purple { background: #8b5cf6; color: white; }
+        .color-orange { background: #ff6b35; color: white; }
+        
+        .stats {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(30, 35, 40, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #c89b3c;
+            min-width: 200px;
+        }
+        
+        .stat-item {
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .no-cards {
+            text-align: center;
+            padding: 40px;
+            background: rgba(30, 35, 40, 0.8);
+            border-radius: 10px;
+            border: 1px solid #c89b3c;
+        }
+        
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+        
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: -9999px;
+        }
+        
+        .instructions {
+            text-align: center;
+            padding: 20px;
+            background: rgba(12, 31, 31, 0.8);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            background: rgba(12, 31, 31, 0.8);
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .status.success {
+            border: 1px solid #4c9c5c;
+            color: #4c9c5c;
+        }
+        
+        .status.error {
+            border: 1px solid #c8354e;
+            color: #c8354e;
+        }
+        
+        .status.info {
+            border: 1px solid #0596aa;
+            color: #0596aa;
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(200, 155, 60, 0.3);
+            border-radius: 50%;
+            border-top-color: #c89b3c;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes glow {
+            0% { box-shadow: 0 0 5px #c89b3c; }
+            50% { box-shadow: 0 0 20px #c89b3c, 0 0 30px #c89b3c; }
+            100% { box-shadow: 0 0 5px #c89b3c; }
+        }
+        
+        .card-container:hover .card-front {
+            animation: glow 2s infinite;
+        }
+        
+        pre {
+            background: #000;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .tab-button {
+            padding: 8px 16px;
+            background: rgba(12, 31, 31, 0.8);
+            border: 1px solid #3c4043;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .tab-button.active {
+            background: #c89b3c;
+            color: #0c1f1f;
+            border-color: #c89b3c;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎮 Riftbound Card Memory Quiz</h1>
+        <p>Integrated Scraper & Quiz System</p>
+    </div>
+    
+    <div class="main-container">
+        <div class="scraper-section">
+            <h2>🔧 Card Database Setup</h2>
+            
+            <div class="tab-buttons">
+                <div class="tab-button active" onclick="switchTab('quick')">Quick Start</div>
+                <div class="tab-button" onclick="switchTab('setup')">Setup Instructions</div>
+                <div class="tab-button" onclick="switchTab('manual')">Manual Upload</div>
+            </div>
+            
+            <div id="quick-tab" class="tab-content active">
+                <p>Click below to automatically scrape cards or check for existing cards.</p>
+                
+                <div style="display: flex; gap: 15px; justify-content: center; margin-top: 20px;">
+                    <button class="btn" onclick="startScraping()">🚀 Start Automatic Scraping</button>
+                    <button class="btn btn-secondary" onclick="checkForCards()">🔄 Check for Existing Cards</button>
+                </div>
+                
+                <div id="scraping-status" class="status" style="display: none; margin-top: 20px;"></div>
+            </div>
+            
+            <div id="setup-tab" class="tab-content">
+                <h3>Step 1: Create the Server Script</h3>
+                <p>Save this as <code>riftbound_server.py</code>:</p>
+                <pre><code>#!/usr/bin/env python3
+from flask import Flask, jsonify, send_from_directory
+from flask_cors import CORS
+import subprocess
+import json
+import os
+import threading
+
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
+
+scraping_status = {"status": "idle", "message": ""}
+
+@app.route('/')
+def index():
+    return send_from_directory('.', 'index.html')
+
+@app.route('/scrape', methods=['POST'])
+def scrape():
+    global scraping_status
+    
+    if scraping_status["status"] == "scraping":
+        return jsonify({"error": "Scraping already in progress"}), 400
+    
+    # Run scraper in background
+    thread = threading.Thread(target=run_scraper)
+    thread.start()
+    
+    return jsonify({"message": "Scraping started"})
+
+@app.route('/status')
+def get_status():
+    return jsonify(scraping_status)
+
+@app.route('/cards')
+def get_cards():
+    if os.path.exists('riftbound_cards.json'):
+        with open('riftbound_cards.json', 'r') as f:
+            cards = json.load(f)
+        return jsonify(cards)
+    return jsonify([])
+
+def run_scraper():
+    global scraping_status
+    scraping_status = {"status": "scraping", "message": "Starting scraper..."}
+    
+    try:
+        # Run the scraper script
+        process = subprocess.Popen(
+            ['python', 'riftbound_scraper.py', '--headless'],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        
+        stdout, stderr = process.communicate()
+        
+        if process.returncode == 0:
+            scraping_status = {"status": "complete", "message": "Scraping completed successfully!"}
+        else:
+            scraping_status = {"status": "error", "message": f"Error: {stderr}"}
+    except Exception as e:
+        scraping_status = {"status": "error", "message": str(e)}
+
+if __name__ == '__main__':
+    print("Starting Riftbound server on http://localhost:5000")
+    app.run(debug=True, port=5000)</code></pre>
+                
+                <h3>Step 2: Install Requirements</h3>
+                <pre><code>pip install flask flask-cors selenium beautifulsoup4 requests</code></pre>
+                
+                <h3>Step 3: Run the Server</h3>
+                <pre><code>python riftbound_server.py</code></pre>
+                
+                <h3>Step 4: Return to Quick Start</h3>
+                <p>Once the server is running, go back to the Quick Start tab and click "Start Automatic Scraping".</p>
+            </div>
+            
+            <div id="manual-tab" class="tab-content">
+                <p>Run the Python scraper manually and upload the resulting JSON file.</p>
+                
+                <h3>Manual Steps:</h3>
+                <ol>
+                    <li>Run: <code>python riftbound_scraper.py --headless</code></li>
+                    <li>Wait for scraping to complete</li>
+                    <li>Upload the generated <code>riftbound_cards.json</code> file below</li>
+                </ol>
+                
+                <div class="file-input-wrapper">
+                    <button class="btn">📁 Load Database File</button>
+                    <input type="file" id="fileInput" accept=".json">
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls" style="display: none;" id="gameControls">
+            <div class="filter-section">
+                <label>Filter by color:</label>
+                <div class="color-filter" id="colorFilter">
+                    <!-- Color checkboxes will be dynamically added here -->
+                </div>
+            </div>
+            
+            <button class="btn btn-secondary" onclick="randomizeOrder()">🔀 Randomize</button>
+            <button class="btn btn-danger" onclick="resetQuiz()">🔄 Reset Quiz</button>
+        </div>
+        
+        <div class="quiz-area" id="quizArea">
+            <div class="no-cards" id="noCards">
+                <h2>No cards loaded!</h2>
+                <p>Please scrape or load a card database to start the quiz.</p>
+            </div>
+        </div>
+        
+        <div class="stats" id="stats" style="display: none;">
+            <h3>📊 Stats</h3>
+            <div class="stat-item">
+                <span>Current Card:</span>
+                <span id="currentIndex">0</span> / <span id="totalCards">0</span>
+            </div>
+            <div class="stat-item">
+                <span>Filtered Cards:</span>
+                <span id="filteredCount">0</span>
+            </div>
+            <div class="stat-item">
+                <span>Cards Viewed:</span>
+                <span id="viewedCount">0</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let allCards = [];
+        let filteredCards = [];
+        let currentIndex = 0;
+        let viewedCards = new Set();
+        let scrapingInterval = null;
+        
+        // Fixed game colors
+        const GAME_COLORS = ['Red', 'Blue', 'Green', 'Purple', 'Orange', 'Yellow'];
+        
+        // Tab switching
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            document.querySelector(`#${tabName}-tab`).classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        // Server integration functions
+        async function startScraping() {
+            const statusDiv = document.getElementById('scraping-status');
+            statusDiv.style.display = 'block';
+            statusDiv.className = 'status info';
+            statusDiv.innerHTML = '<span class="loading"></span> Starting scraper...';
+            
+            try {
+                const response = await fetch('http://localhost:5000/scrape', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+                
+                if (response.ok) {
+                    // Start polling for status
+                    scrapingInterval = setInterval(checkScrapingStatus, 2000);
+                } else {
+                    const error = await response.json();
+                    statusDiv.className = 'status error';
+                    statusDiv.textContent = `Error: ${error.error}`;
+                }
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.textContent = 'Error: Could not connect to server. Make sure riftbound_server.py is running on port 5000.';
+            }
+        }
+        
+        async function checkScrapingStatus() {
+            try {
+                const response = await fetch('http://localhost:5000/status');
+                const status = await response.json();
+                
+                const statusDiv = document.getElementById('scraping-status');
+                
+                if (status.status === 'scraping') {
+                    statusDiv.className = 'status info';
+                    statusDiv.innerHTML = `<span class="loading"></span> ${status.message}`;
+                } else if (status.status === 'complete') {
+                    statusDiv.className = 'status success';
+                    statusDiv.textContent = status.message;
+                    clearInterval(scrapingInterval);
+                    
+                    // Automatically load the cards
+                    setTimeout(loadCardsFromServer, 1000);
+                } else if (status.status === 'error') {
+                    statusDiv.className = 'status error';
+                    statusDiv.textContent = status.message;
+                    clearInterval(scrapingInterval);
+                }
+            } catch (error) {
+                console.error('Error checking status:', error);
+            }
+        }
+        
+        async function checkForCards() {
+            const statusDiv = document.getElementById('scraping-status');
+            statusDiv.style.display = 'block';
+            
+            try {
+                const response = await fetch('http://localhost:5000/cards');
+                const cards = await response.json();
+                
+                if (cards.length > 0) {
+                    statusDiv.className = 'status success';
+                    statusDiv.textContent = `Found ${cards.length} cards in database!`;
+                    loadDatabase(cards);
+                } else {
+                    statusDiv.className = 'status info';
+                    statusDiv.textContent = 'No cards found. Please run the scraper first.';
+                }
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.textContent = 'Error: Could not connect to server.';
+            }
+        }
+        
+        async function loadCardsFromServer() {
+            try {
+                const response = await fetch('http://localhost:5000/cards');
+                const cards = await response.json();
+                
+                if (cards.length > 0) {
+                    loadDatabase(cards);
+                    
+                    const statusDiv = document.getElementById('scraping-status');
+                    statusDiv.className = 'status success';
+                    statusDiv.textContent = `Successfully loaded ${cards.length} cards!`;
+                }
+            } catch (error) {
+                console.error('Error loading cards:', error);
+            }
+        }
+        
+        // File input handler
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const data = JSON.parse(e.target.result);
+                        loadDatabase(data);
+                    } catch (error) {
+                        alert('Error loading file: Invalid JSON format');
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+        
+        function loadDatabase(data) {
+            allCards = data;
+            
+            // Create color filter checkboxes with fixed colors
+            createColorFilters();
+            
+            // Initialize filtered cards
+            filteredCards = [...allCards];
+            currentIndex = 0;
+            viewedCards.clear();
+            
+            // Update UI
+            document.getElementById('noCards').style.display = 'none';
+            document.getElementById('gameControls').style.display = 'flex';
+            document.getElementById('stats').style.display = 'block';
+            updateStats();
+            displayCard();
+        }
+        
+        function createColorFilters() {
+            const filterContainer = document.getElementById('colorFilter');
+            filterContainer.innerHTML = '';
+            
+            // Multi-color filter
+            const multiLabel = document.createElement('label');
+            multiLabel.className = 'color-checkbox';
+            multiLabel.style.marginRight = '20px';
+            multiLabel.innerHTML = `
+                <input type="checkbox" id="filter-exclude-multi" onchange="applyColorFilter()">
+                <span style="color: #f0e6d2;">Exclude Multi-Color</span>
+            `;
+            filterContainer.appendChild(multiLabel);
+            
+            // Separator
+            const separator = document.createElement('span');
+            separator.style.color = '#5c5b57';
+            separator.style.margin = '0 10px';
+            separator.textContent = '|';
+            filterContainer.appendChild(separator);
+            
+            // Create filters for all 6 game colors
+            GAME_COLORS.forEach(color => {
+                const label = document.createElement('label');
+                label.className = 'color-checkbox';
+                label.innerHTML = `
+                    <input type="checkbox" value="${color}" checked onchange="applyColorFilter()">
+                    <span class="color-badge color-${color.toLowerCase()}">${color}</span>
+                `;
+                filterContainer.appendChild(label);
+            });
+        }
+        
+        function toggleAllColors(checkbox) {
+            const colorCheckboxes = document.querySelectorAll('.color-filter input[type="checkbox"]:not(#filter-all)');
+            colorCheckboxes.forEach(cb => cb.checked = checkbox.checked);
+            applyColorFilter();
+        }
+        
+        function applyColorFilter() {
+            const selectedColors = Array.from(document.querySelectorAll('.color-filter input[type="checkbox"]:checked:not(#filter-exclude-multi)'))
+                .map(cb => cb.value);
+            
+            const excludeMulti = document.getElementById('filter-exclude-multi').checked;
+            
+            if (selectedColors.length === 0) {
+                filteredCards = [];
+            } else {
+                filteredCards = allCards.filter(card => {
+                    if (!card.colors || card.colors.length === 0) return false;
+                    
+                    // Check if card should be excluded due to multi-color
+                    if (excludeMulti && card.colors.length > 1) return false;
+                    
+                    // Check if card has any of the selected colors
+                    return card.colors.some(color => selectedColors.includes(color));
+                });
+            }
+            
+            currentIndex = 0;
+            updateStats();
+            displayCard();
+        }
+        
+        function displayCard() {
+            const quizArea = document.getElementById('quizArea');
+            
+            if (filteredCards.length === 0) {
+                quizArea.innerHTML = `
+                    <div class="no-cards">
+                        <h2>No cards match the selected filters!</h2>
+                        <p>Please adjust your color filters.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const card = filteredCards[currentIndex];
+            
+            quizArea.innerHTML = `
+                <button class="btn" onclick="previousCard()" ${currentIndex === 0 ? 'disabled' : ''}>⬅ Previous</button>
+                
+                <div class="card-container">
+                    <div class="card" id="card" onclick="toggleCard()">
+                        <div class="card-face card-front">
+                            <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                            <div class="card-cover">
+                                <div class="question-mark">?</div>
+                            </div>
+                            <div class="card-info">
+                                <div class="card-name">${card.name}</div>
+                                <div class="color-badges">
+                                    ${card.colors.map(color => `<span class="color-badge color-${color.toLowerCase()}">${color}</span>`).join('')}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-face card-back">
+                            <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn" onclick="nextCard()" ${currentIndex === filteredCards.length - 1 ? 'disabled' : ''}>Next ➡</button>
+            `;
+            
+            updateStats();
+        }
+        
+        function toggleCard() {
+            const card = document.getElementById('card');
+            card.classList.toggle('revealed');
+            
+            if (card.classList.contains('revealed')) {
+                viewedCards.add(filteredCards[currentIndex].id);
+                updateStats();
+            }
+        }
+        
+        function previousCard() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                displayCard();
+            }
+        }
+        
+        function nextCard() {
+            if (currentIndex < filteredCards.length - 1) {
+                currentIndex++;
+                displayCard();
+            }
+        }
+        
+        function randomizeOrder() {
+            // Fisher-Yates shuffle
+            for (let i = filteredCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [filteredCards[i], filteredCards[j]] = [filteredCards[j], filteredCards[i]];
+            }
+            
+            currentIndex = 0;
+            displayCard();
+        }
+        
+        function resetQuiz() {
+            currentIndex = 0;
+            viewedCards.clear();
+            displayCard();
+            updateStats();
+        }
+        
+        function updateStats() {
+            document.getElementById('currentIndex').textContent = currentIndex + 1;
+            document.getElementById('totalCards').textContent = filteredCards.length;
+            document.getElementById('filteredCount').textContent = filteredCards.length;
+            document.getElementById('viewedCount').textContent = viewedCards.size;
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (filteredCards.length === 0) return;
+            
+            switch(e.key) {
+                case 'ArrowLeft':
+                    previousCard();
+                    break;
+                case 'ArrowRight':
+                    nextCard();
+                    break;
+                case ' ':
+                case 'Enter':
+                    e.preventDefault();
+                    toggleCard();
+                    break;
+            }
+        });
+        
+        // Check for server on load
+        window.addEventListener('load', function() {
+            checkForCards();
+        });
+    </script>
+</body>
+</html>
