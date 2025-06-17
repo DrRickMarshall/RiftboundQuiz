@@ -218,30 +218,51 @@ class RiftboundScraper:
                     initial_count = await page.locator('img[alt]').count()
                 logger.info(f"Initial card count: {initial_count}")
                 
-                # Scroll to load all lazy-loaded content
+                # More controlled scrolling approach
                 previous_count = 0
                 scroll_attempts = 0
-                max_attempts = 10
+                max_attempts = 250
+                
+                # Get viewport and page dimensions
+                viewport_height = await page.evaluate('window.innerHeight')
                 
                 while scroll_attempts < max_attempts:
-                    # Scroll to bottom
-                    await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                    # Get current scroll position and page height
+                    current_scroll = await page.evaluate('window.pageYOffset')
+                    page_height = await page.evaluate('document.body.scrollHeight')
                     
-                    # Wait a bit for new content to load
-                    await page.wait_for_timeout(1000)
+                    # Scroll by viewport height (like pressing Page Down)
+                    next_scroll = current_scroll + viewport_height
                     
-                    # Check new count
-                    if color_images > 0:
-                        current_count = await page.locator('img[alt*="Color:"]').count()
-                    else:
-                        current_count = await page.locator('img[alt]').count()
-                    
-                    if current_count == previous_count:
-                        # No new cards loaded, we're done
-                        break
+                    if next_scroll >= page_height:
+                        # We've reached the bottom, do one final scroll to absolute bottom
+                        await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                        await page.wait_for_timeout(2000)  # Wait for final content
                         
-                    logger.info(f"Loaded {current_count} cards so far...")
-                    previous_count = current_count
+                        # Check if new content loaded
+                        new_height = await page.evaluate('document.body.scrollHeight')
+                        if new_height > page_height:
+                            # Page grew, continue scrolling
+                            continue
+                        else:
+                            # No new content, we're done
+                            break
+                    else:
+                        # Smooth scroll down by one viewport
+                        await page.evaluate(f'window.scrollTo({{ top: {next_scroll}, behavior: "smooth" }})')
+                        await page.wait_for_timeout(500)  # Give content time to load
+                    
+                    # Check new count periodically
+                    if scroll_attempts % 3 == 0:
+                        if color_images > 0:
+                            current_count = await page.locator('img[alt*="Color:"]').count()
+                        else:
+                            current_count = await page.locator('img[alt]').count()
+                        
+                        if current_count > previous_count:
+                            logger.info(f"Loaded {current_count} cards so far...")
+                            previous_count = current_count
+                    
                     scroll_attempts += 1
                 
                 # Final wait to ensure everything is loaded
