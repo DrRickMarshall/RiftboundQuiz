@@ -59,6 +59,41 @@
             border-radius: 10px;
             border: 1px solid #c89b3c;
             margin-bottom: 20px;
+        }
+        
+        .mode-selector {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        
+        .mode-btn {
+            background: rgba(12, 31, 31, 0.8);
+            color: #cdbe91;
+            border: 1px solid #3c4043;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .mode-btn:hover {
+            background: rgba(200, 155, 60, 0.2);
+            border-color: #c89b3c;
+        }
+        
+        .mode-btn.active {
+            background: #c89b3c;
+            color: #0c1f1f;
+            border-color: #c89b3c;
+        }
+        
+        .filter-controls {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
@@ -206,8 +241,15 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 40%;
-            background: linear-gradient(to top, #1e2328 70%, transparent);
+            height: 36%;
+            background: #1e2328; /*linear-gradient(to bottom, 
+                #1e2328 0%, 
+                #1e2328 50%,
+                rgba(30, 35, 40, 0.98) 70%,
+                rgba(30, 35, 40, 0.9) 85%,
+                rgba(30, 35, 40, 0.5) 95%,
+                transparent 100%
+            );*/
             display: flex;
             align-items: center;
             justify-content: center;
@@ -219,9 +261,45 @@
         }
         
         .question-mark {
-            font-size: 60px;
+            font-size: 80px;
             color: #c89b3c;
-            text-shadow: 0 0 20px #c89b3c;
+            text-shadow: 
+                0 0 20px rgba(200, 155, 60, 0.8),
+                0 0 40px rgba(200, 155, 60, 0.5),
+                0 0 60px rgba(200, 155, 60, 0.3);
+            font-weight: bold;
+            font-family: 'Georgia', serif;
+            animation: pulse 2s ease-in-out infinite;
+            position: relative;
+        }
+        
+        .question-mark::before {
+            content: '';
+            position: absolute;
+            inset: -20px;
+            background: radial-gradient(circle, 
+                rgba(200, 155, 60, 0.1) 0%, 
+                rgba(200, 155, 60, 0.05) 40%,
+                transparent 70%
+            );
+            border-radius: 50%;
+            animation: rotate 10s linear infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { 
+                transform: scale(1); 
+                opacity: 0.9;
+            }
+            50% { 
+                transform: scale(1.1); 
+                opacity: 1;
+            }
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
         
         .card-info {
@@ -262,6 +340,76 @@
         .color-yellow { background: #f9c74f; color: black; }
         .color-purple { background: #8b5cf6; color: white; }
         .color-orange { background: #ff6b35; color: white; }
+        
+        .quiz-input-area {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .quiz-input {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: rgba(30, 35, 40, 0.9);
+            border: 2px solid #c89b3c;
+            border-radius: 5px;
+            color: #f0e6d2;
+            text-align: center;
+            width: 250px;
+        }
+        
+        .quiz-input:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(200, 155, 60, 0.5);
+        }
+        
+        .quiz-feedback {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            min-height: 24px;
+        }
+        
+        .quiz-feedback.correct {
+            color: #4c9c5c;
+        }
+        
+        .quiz-feedback.incorrect {
+            color: #c8354e;
+        }
+        
+        .name-overlay {
+            position: absolute;
+            bottom: 34%;
+            left: 10px;
+            right: 10px;
+            height: 65px;
+            background: #1e2328;
+            border: 2px solid #c89b3c;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #c89b3c;
+            font-weight: bold;
+        }
+        
+        .cost-overlay {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 70px;
+            height: 70px;
+            background: #1e2328;
+            border: 2px solid #c89b3c;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: #c89b3c;
+            font-weight: bold;
+        }
         
         .stats {
             position: absolute;
@@ -395,13 +543,16 @@
 </head>
 <body>
     <div class="header">
-        <h1>🎮 Riftbound Card Memory Quiz</h1>
-        <p>Integrated Scraper & Quiz System</p>
+        <h1>🎮 Riftbound Card Learning System</h1>
+        <p>Master your card knowledge with three learning modes!</p>
     </div>
     
     <div class="main-container">
-        <div class="scraper-section">
-            <h2>🔧 Card Database Setup</h2>
+        <div class="scraper-section" id="scraperSection">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h2>🔧 Card Database Setup</h2>
+                <button class="btn btn-secondary" id="hideSetupBtn" onclick="hideScraperSection()" style="display: none;">✖ Hide Setup</button>
+            </div>
             
             <div class="tab-buttons">
                 <div class="tab-button active" onclick="switchTab('quick')">Quick Start</div>
@@ -519,21 +670,32 @@ if __name__ == '__main__':
         </div>
         
         <div class="controls" style="display: none;" id="gameControls">
-            <div class="filter-section">
-                <label>Filter by color:</label>
-                <div class="color-filter" id="colorFilter">
-                    <!-- Color checkboxes will be dynamically added here -->
-                </div>
+            <div class="mode-selector">
+                <button class="mode-btn active" onclick="switchMode('selflearn')">📖 Self Learn</button>
+                <button class="mode-btn" onclick="switchMode('namequiz')">🎯 Name Quiz</button>
+                <button class="mode-btn" onclick="switchMode('costquiz')">💎 Cost Quiz</button>
             </div>
             
-            <button class="btn btn-secondary" onclick="randomizeOrder()">🔀 Randomize</button>
-            <button class="btn btn-danger" onclick="resetQuiz()">🔄 Reset Quiz</button>
+            <div class="filter-controls">
+                <div class="filter-section">
+                    <label>Filter by color:</label>
+                    <div class="color-filter" id="colorFilter">
+                        <!-- Color checkboxes will be dynamically added here -->
+                    </div>
+                </div>
+                
+                <div>
+                    <button class="btn btn-secondary" onclick="randomizeOrder()">🔀 Randomize</button>
+                    <button class="btn btn-danger" onclick="resetProgress()">🔄 Reset Progress</button>
+                    <button class="btn" onclick="showScraperSection()">🔄 Update Cards</button>
+                </div>
+            </div>
         </div>
         
         <div class="quiz-area" id="quizArea">
             <div class="no-cards" id="noCards">
                 <h2>No cards loaded!</h2>
-                <p>Please scrape or load a card database to start the quiz.</p>
+                <p>Please scrape or load a card database to start learning.</p>
             </div>
         </div>
         
@@ -548,7 +710,7 @@ if __name__ == '__main__':
                 <span id="filteredCount">0</span>
             </div>
             <div class="stat-item">
-                <span>Cards Viewed:</span>
+                <span>Cards Mastered:</span>
                 <span id="viewedCount">0</span>
             </div>
         </div>
@@ -560,6 +722,7 @@ if __name__ == '__main__':
         let currentIndex = 0;
         let viewedCards = new Set();
         let scrapingInterval = null;
+        let currentMode = 'selflearn';
         
         // Fixed game colors
         const GAME_COLORS = ['Red', 'Blue', 'Green', 'Purple', 'Orange', 'Yellow'];
@@ -571,6 +734,18 @@ if __name__ == '__main__':
             
             document.querySelector(`#${tabName}-tab`).classList.add('active');
             event.target.classList.add('active');
+        }
+        
+        // Mode switching
+        function switchMode(mode) {
+            currentMode = mode;
+            
+            // Update active button
+            document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Re-display current card in new mode
+            displayCard();
         }
         
         // Server integration functions
@@ -641,6 +816,9 @@ if __name__ == '__main__':
                     statusDiv.className = 'status success';
                     statusDiv.textContent = `Found ${cards.length} cards in database!`;
                     loadDatabase(cards);
+                    
+                    // Show hide button since we're showing the scraper with cards loaded
+                    document.getElementById('hideSetupBtn').style.display = 'block';
                 } else {
                     statusDiv.className = 'status info';
                     statusDiv.textContent = 'No cards found. Please run the scraper first.';
@@ -696,12 +874,35 @@ if __name__ == '__main__':
             currentIndex = 0;
             viewedCards.clear();
             
-            // Update UI
+            // Hide scraper section and show game controls
+            document.getElementById('scraperSection').style.display = 'none';
             document.getElementById('noCards').style.display = 'none';
-            document.getElementById('gameControls').style.display = 'flex';
+            document.getElementById('gameControls').style.display = 'block';
             document.getElementById('stats').style.display = 'block';
+            document.getElementById('hideSetupBtn').style.display = 'none';
             updateStats();
             displayCard();
+        }
+        
+        function showScraperSection() {
+            // Show the scraper section again
+            document.getElementById('scraperSection').style.display = 'block';
+            
+            // Show hide button if cards are loaded
+            if (allCards.length > 0) {
+                document.getElementById('hideSetupBtn').style.display = 'block';
+            }
+            
+            // Scroll to top so user can see it
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        function hideScraperSection() {
+            // Hide the scraper section
+            document.getElementById('scraperSection').style.display = 'none';
+            
+            // Scroll to quiz area
+            document.getElementById('quizArea').scrollIntoView({ behavior: 'smooth' });
         }
         
         function createColorFilters() {
@@ -735,12 +936,6 @@ if __name__ == '__main__':
                 `;
                 filterContainer.appendChild(label);
             });
-        }
-        
-        function toggleAllColors(checkbox) {
-            const colorCheckboxes = document.querySelectorAll('.color-filter input[type="checkbox"]:not(#filter-all)');
-            colorCheckboxes.forEach(cb => cb.checked = checkbox.checked);
-            applyColorFilter();
         }
         
         function applyColorFilter() {
@@ -783,31 +978,80 @@ if __name__ == '__main__':
             
             const card = filteredCards[currentIndex];
             
-            quizArea.innerHTML = `
-                <button class="btn" onclick="previousCard()" ${currentIndex === 0 ? 'disabled' : ''}>⬅ Previous</button>
-                
-                <div class="card-container">
-                    <div class="card" id="card" onclick="toggleCard()">
-                        <div class="card-face card-front">
-                            <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
-                            <div class="card-cover">
-                                <div class="question-mark">?</div>
-                            </div>
-                            <div class="card-info">
-                                <div class="card-name">${card.name}</div>
-                                <div class="color-badges">
-                                    ${card.colors.map(color => `<span class="color-badge color-${color.toLowerCase()}">${color}</span>`).join('')}
+            if (currentMode === 'selflearn') {
+                // Self Learn Mode - Original functionality
+                quizArea.innerHTML = `
+                    <button class="btn" onclick="previousCard()" ${currentIndex === 0 ? 'disabled' : ''}>⬅ Previous</button>
+                    
+                    <div class="card-container">
+                        <div class="card" id="card" onclick="toggleCard()">
+                            <div class="card-face card-front">
+                                <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                                <div class="card-cover">
+                                    <div class="question-mark">?</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-face card-back">
-                            <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                            <div class="card-face card-back">
+                                <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                            </div>
                         </div>
                     </div>
-                </div>
+                    
+                    <button class="btn" onclick="nextCard()" ${currentIndex === filteredCards.length - 1 ? 'disabled' : ''}>Next ➡</button>
+                `;
+            } else if (currentMode === 'namequiz') {
+                // Name Quiz Mode
+                quizArea.innerHTML = `
+                    <button class="btn" onclick="previousCard()" ${currentIndex === 0 ? 'disabled' : ''}>⬅ Previous</button>
+                    
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-face">
+                                <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=Card'">
+                                <div class="name-overlay">?</div>
+                            </div>
+                        </div>
+                        <div class="quiz-input-area">
+                            <input type="text" class="quiz-input" id="nameInput" placeholder="Enter card name..." onkeypress="if(event.key==='Enter') checkNameAnswer()">
+                            <button class="btn" onclick="checkNameAnswer()" style="margin-left: 10px;">Check</button>
+                            <div id="quizFeedback" class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn" onclick="nextCard()" ${currentIndex === filteredCards.length - 1 ? 'disabled' : ''}>Next ➡</button>
+                `;
                 
-                <button class="btn" onclick="nextCard()" ${currentIndex === filteredCards.length - 1 ? 'disabled' : ''}>Next ➡</button>
-            `;
+                // Focus input
+                setTimeout(() => document.getElementById('nameInput')?.focus(), 100);
+                
+            } else if (currentMode === 'costquiz') {
+                // Cost Quiz Mode
+                // Note: You'll need to update the scraper to extract cost data
+                const cost = card.cost || '3'; // Default if not available
+                
+                quizArea.innerHTML = `
+                    <button class="btn" onclick="previousCard()" ${currentIndex === 0 ? 'disabled' : ''}>⬅ Previous</button>
+                    
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-face">
+                                <img src="${card.image}" alt="${card.name}" class="card-image" onerror="this.src='https://via.placeholder.com/300x420/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                                <div class="cost-overlay">?</div>
+                            </div>
+                        </div>
+                        <div class="quiz-input-area">
+                            <input type="number" class="quiz-input" id="costInput" placeholder="Enter cost..." min="0" max="20" onkeypress="if(event.key==='Enter') checkCostAnswer()">
+                            <button class="btn" onclick="checkCostAnswer()" style="margin-left: 10px;">Check</button>
+                            <div id="quizFeedback" class="quiz-feedback"></div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn" onclick="nextCard()" ${currentIndex === filteredCards.length - 1 ? 'disabled' : ''}>Next ➡</button>
+                `;
+                
+                // Focus input
+                setTimeout(() => document.getElementById('costInput')?.focus(), 100);
+            }
             
             updateStats();
         }
@@ -819,6 +1063,52 @@ if __name__ == '__main__':
             if (card.classList.contains('revealed')) {
                 viewedCards.add(filteredCards[currentIndex].id);
                 updateStats();
+            }
+        }
+        
+        function checkNameAnswer() {
+            const input = document.getElementById('nameInput');
+            const feedback = document.getElementById('quizFeedback');
+            const correctAnswer = filteredCards[currentIndex].name;
+            
+            if (input.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                feedback.textContent = '✅ Correct!';
+                feedback.className = 'quiz-feedback correct';
+                viewedCards.add(filteredCards[currentIndex].id);
+                updateStats();
+                
+                // Auto advance after 1.5 seconds
+                setTimeout(() => {
+                    if (currentIndex < filteredCards.length - 1) {
+                        nextCard();
+                    }
+                }, 1500);
+            } else {
+                feedback.textContent = `❌ Incorrect. The answer is: ${correctAnswer}`;
+                feedback.className = 'quiz-feedback incorrect';
+            }
+        }
+        
+        function checkCostAnswer() {
+            const input = document.getElementById('costInput');
+            const feedback = document.getElementById('quizFeedback');
+            const correctAnswer = filteredCards[currentIndex].cost || '3';
+            
+            if (input.value === correctAnswer) {
+                feedback.textContent = '✅ Correct!';
+                feedback.className = 'quiz-feedback correct';
+                viewedCards.add(filteredCards[currentIndex].id);
+                updateStats();
+                
+                // Auto advance after 1.5 seconds
+                setTimeout(() => {
+                    if (currentIndex < filteredCards.length - 1) {
+                        nextCard();
+                    }
+                }, 1500);
+            } else {
+                feedback.textContent = `❌ Incorrect. The cost is: ${correctAnswer}`;
+                feedback.className = 'quiz-feedback incorrect';
             }
         }
         
@@ -847,7 +1137,7 @@ if __name__ == '__main__':
             displayCard();
         }
         
-        function resetQuiz() {
+        function resetProgress() {
             currentIndex = 0;
             viewedCards.clear();
             displayCard();
@@ -865,6 +1155,12 @@ if __name__ == '__main__':
         document.addEventListener('keydown', function(e) {
             if (filteredCards.length === 0) return;
             
+            // Don't interfere with typing in quiz modes
+            if ((currentMode === 'namequiz' || currentMode === 'costquiz') && 
+                (e.target.tagName === 'INPUT')) {
+                return;
+            }
+            
             switch(e.key) {
                 case 'ArrowLeft':
                     previousCard();
@@ -873,17 +1169,34 @@ if __name__ == '__main__':
                     nextCard();
                     break;
                 case ' ':
-                case 'Enter':
-                    e.preventDefault();
-                    toggleCard();
+                    if (currentMode === 'selflearn') {
+                        e.preventDefault();
+                        toggleCard();
+                    }
                     break;
             }
         });
         
         // Check for server on load
         window.addEventListener('load', function() {
-            checkForCards();
+            // Only check for cards automatically, don't show scraper if cards exist
+            checkForCardsQuietly();
         });
+        
+        // Quiet version that doesn't show status messages
+        async function checkForCardsQuietly() {
+            try {
+                const response = await fetch('http://localhost:5000/cards');
+                const cards = await response.json();
+                
+                if (cards.length > 0) {
+                    loadDatabase(cards);
+                }
+                // If no cards, the scraper section remains visible
+            } catch (error) {
+                // Server not running, scraper section remains visible
+            }
+        }
     </script>
 </body>
 </html>

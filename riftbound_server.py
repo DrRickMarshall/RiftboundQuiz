@@ -103,9 +103,16 @@ def run_scraper():
         with scraping_lock:
             scraping_status = {"status": "scraping", "message": "Running scraper (this may take a few minutes)..."}
         
-        # Run the scraper script with headless option
+        # Determine the correct Python executable
+        # Try to use the current Python interpreter first (works with venv)
+        import sys
+        python_executable = sys.executable
+        
+        logger.info(f"Using Python interpreter: {python_executable}")
+        
+        # Run the scraper script with the same Python interpreter
         process = subprocess.Popen(
-            ['python', 'riftbound_scraper.py', "--no-selenium"], #'--headless'],
+            [python_executable, 'riftbound_scraper.py', '--headless'],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,

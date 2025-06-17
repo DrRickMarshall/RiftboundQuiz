@@ -1,55 +1,65 @@
-# Riftbound Card Memory Quiz - Complete Setup Guide
+# Riftbound Card Learning System
 
-This guide will help you set up the integrated Riftbound scraper and quiz system.
+A comprehensive web-based learning system for Riftbound TCG cards featuring automated card scraping, database management, and three interactive learning modes.
 
-## Overview
+## System Overview
 
-The integrated system consists of:
-1. **Python Scraper** (`riftbound_scraper.py`) - Scrapes cards from the website
-2. **Flask Server** (`riftbound_server.py`) - Bridges between the web app and scraper
-3. **Web App** (`index.html`) - The quiz interface with integrated scraping
+The Riftbound Learning System consists of:
+1. **Playwright Scraper** (`riftbound_scraper.py`) - High-performance card scraper
+2. **Flask Server** (`riftbound_server.py`) - API bridge between scraper and web app
+3. **Web Application** (`index.html`) - Interactive learning interface with three modes
+
+## Features
+
+### Learning Modes
+1. **📖 Self Learn Mode** - Click cards to reveal/hide descriptions
+2. **🎯 Name Quiz Mode** - Type card names with the name hidden
+3. **💎 Cost Quiz Mode** - Guess card costs (requires cost data)
+
+### Card Management
+- **Automatic Scraping** - One-click card database updates
+- **Smart UI** - Scraper interface auto-hides when cards are loaded
+- **Hide Setup Button** - Manually hide the scraper section after updating cards
+- **Color Filtering** - Filter by any of the 6 game colors
+- **Multi-color Control** - Option to exclude multi-color cards
+- **Progress Tracking** - Track mastered cards per session
+
+### Performance Features
+- **Playwright-based scraping** - 2-3x faster than Selenium
+- **Smart scrolling** - Efficiently loads lazy-loaded content
+- **Debug mode** - Detailed logging for troubleshooting
+- **Headless operation** - Fast, background scraping
+
+## Installation
+
+### Prerequisites
+
+1. Python 3.7 or higher
+2. pip (Python package manager)
+
+### Required Python Packages
+
+```bash
+# Install all dependencies
+pip install flask flask-cors playwright
+
+# Install Playwright browsers (only needed once)
+playwright install chromium
+```
 
 ## File Structure
 
-Create a folder for your project with these files:
 ```
 riftbound-quiz/
-├── riftbound_scraper.py    # The Python scraper
-├── riftbound_server.py      # The Flask server
-├── index.html               # The integrated web app
-└── riftbound_cards.json     # Generated card database (created after scraping)
+├── riftbound_scraper.py    # Playwright-based card scraper
+├── riftbound_server.py      # Flask API server
+├── index.html               # Web application (all three modes)
+└── riftbound_cards.json     # Generated card database
 ```
 
-## Step-by-Step Setup
+## Quick Start
 
-### 1. Install Python Dependencies
-
-Open a terminal/command prompt in your project folder and run:
-
-```bash
-pip install flask flask-cors selenium beautifulsoup4 requests
-```
-
-### 2. Install Browser Driver
-
-#### For Chrome:
-1. Check your Chrome version (Help → About Google Chrome)
-2. Download matching ChromeDriver from https://chromedriver.chromium.org/
-3. Extract and place in your project folder or add to system PATH
-
-#### For Firefox:
-1. Download GeckoDriver from https://github.com/mozilla/geckodriver/releases
-2. Extract and place in your project folder or add to system PATH
-
-### 3. Save the Files
-
-1. Save the Python scraper code as `riftbound_scraper.py`
-2. Save the Flask server code as `riftbound_server.py`
-3. Save the HTML app as `index.html`
-
-### 4. Start the Flask Server
-
-In your terminal, run:
+### 1. Start the Flask Server
 
 ```bash
 python riftbound_server.py
@@ -62,104 +72,195 @@ You should see:
 Starting server on http://localhost:5000
 ```
 
-### 5. Open the Web App
+### 2. Open the Web App
 
-1. Open your web browser
-2. Go to http://localhost:5000
-3. The integrated app will load
+Navigate to http://localhost:5000 in your browser
 
-## Using the Integrated System
+### 3. Load Cards
 
-### Method 1: Automatic Scraping (Recommended)
+**First Time:**
+- Click "🚀 Start Automatic Scraping"
+- Wait 30-60 seconds for scraping to complete
+- Cards auto-load when ready
 
-1. Click **"Start Automatic Scraping"**
-2. Wait for the scraper to complete (2-5 minutes)
-3. Cards will automatically load when done
-4. Start practicing!
+**Returning User:**
+- Click "🔄 Check for Existing Cards"
+- Cards load instantly if database exists
 
-### Method 2: Check for Existing Cards
+### 4. Start Learning!
 
-If you've already scraped cards before:
-1. Click **"Check for Existing Cards"**
-2. If found, they'll load automatically
+Choose your learning mode and begin practicing
 
-### Method 3: Manual Upload
+## Usage Guide
 
-If automatic scraping doesn't work:
-1. Switch to the "Manual Method" tab
-2. Run the scraper manually: `python riftbound_scraper.py`
-3. Upload the generated `riftbound_cards.json` file
+### Interface Controls
+
+#### Card Setup Section
+- **🚀 Start Automatic Scraping** - Runs the scraper to get latest cards
+- **🔄 Check for Existing Cards** - Loads previously scraped cards
+- **📁 Load Database File** - Manual upload option (Manual Upload tab)
+- **✖ Hide Setup** - Hides the setup section (appears when cards are loaded)
+
+#### Quiz Controls
+- **🔄 Update Cards** - Shows the scraper section to update card database
+- **🔀 Randomize** - Shuffles the current card order
+- **🔄 Reset Progress** - Clears mastered cards counter
+
+### Scraper Options
+
+Run the scraper standalone:
+
+```bash
+# Default headless mode (fastest)
+python riftbound_scraper.py
+
+# Show browser window (for debugging)
+python riftbound_scraper.py --show-browser
+
+# Custom output file
+python riftbound_scraper.py --output my_cards.json
+```
+
+### Learning Modes
+
+#### Self Learn Mode
+- Click cards to flip and reveal descriptions
+- Use arrow keys to navigate
+- Space bar flips the current card
+
+#### Name Quiz Mode
+- Card shown with name hidden
+- Type the card name and press Enter
+- Auto-advances on correct answer
+
+#### Cost Quiz Mode
+- Card shown with cost hidden
+- Enter the cost number
+- Requires cost data in the card database
+
+### Keyboard Shortcuts
+
+- **←/→** - Navigate between cards
+- **Space** - Flip card (Self Learn mode only)
+- **Enter** - Submit answer (Quiz modes)
+
+## User Interface Flow
+
+### Clean Learning Experience
+1. **First Visit**: Scraper section visible → Load cards → Auto-hides
+2. **Return Visit**: Cards auto-load → Straight to learning
+3. **Update Cards**: Click "Update Cards" → Scraper appears
+4. **Hide Again**: Click "✖ Hide Setup" → Back to clean interface
+
+The interface adapts to your needs, showing setup options only when necessary.
+
+## Card Database Format
+
+The scraper generates JSON with this structure:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Jinx",
+    "image": "https://...",
+    "text": "Full alt text with card details",
+    "colors": ["Red", "Purple"],
+    "colorString": "Red, Purple"
+  }
+]
+```
+
+### Supported Colors
+- Red
+- Blue  
+- Green
+- Purple
+- Orange
+- Yellow
 
 ## Troubleshooting
 
 ### "Could not connect to server"
-- Make sure the Flask server is running (`python riftbound_server.py`)
-- Check that port 5000 is not blocked by firewall
+- Ensure Flask server is running
+- Check port 5000 isn't blocked
 - Try accessing http://localhost:5000 directly
 
-### "Chrome driver failed"
-- Ensure ChromeDriver version matches your Chrome version
-- Try running with Firefox instead
-- Add `--no-sandbox` flag in the scraper if on Linux
+### "Timeout waiting for selector"
+- Website structure may have changed
+- Run with `--show-browser` to see what's happening
+- Check the debug output for image counts
 
-### "No cards scraped"
-- The website structure may have changed
-- Check your internet connection
-- Try running the scraper manually to see error messages
+### "No cards found"
+- Check internet connection
+- Try running scraper manually to see errors
+- Verify the website is accessible
 
-### "Python not found"
-- Make sure Python is installed and in your PATH
-- Try using `python3` instead of `python`
+### Slow Performance
+- Use headless mode (default)
+- Close other browser instances
+- Ensure good internet connection
 
-## Features
+## Advanced Configuration
 
-### Quiz Features:
-- **Card Reveal**: Click cards to show/hide descriptions
-- **Color Filtering**: Practice specific card types
-- **Keyboard Controls**: 
-  - Arrow keys to navigate
-  - Space/Enter to reveal cards
-- **Randomize**: Shuffle deck order
-- **Progress Tracking**: See how many cards you've viewed
+### Using Different Port
 
-### Server Features:
-- **Real-time Status**: See scraping progress
-- **Automatic Loading**: Cards load immediately after scraping
-- **Error Handling**: Clear error messages
-- **CORS Support**: Works with local development
-
-## Advanced Options
-
-### Running on Different Port
-
-Edit `riftbound_server.py` and change:
+Edit `riftbound_server.py`:
 ```python
-app.run(debug=True, port=5000)  # Change 5000 to your desired port
+app.run(debug=True, port=5000)  # Change port number
 ```
 
-### Headless Mode
+### Updating Card Selectors
 
-The scraper runs in headless mode by default. To see the browser:
-1. Edit `riftbound_server.py`
-2. Change: `['python', 'riftbound_scraper.py', '--headless']`
-3. To: `['python', 'riftbound_scraper.py']`
-
-### Custom Scraping Options
-
-Modify the scraper command in `riftbound_server.py`:
+If the website changes, update the selector in `riftbound_scraper.py`:
 ```python
-# Add custom output file
-['python', 'riftbound_scraper.py', '--output', 'custom_cards.json']
+# Current selector
+'img[alt*="Color:"]'
 ```
+
+### Adding Cost Data
+
+To enable Cost Quiz mode, update the scraper to extract cost information and add a `cost` field to each card in the database.
+
+## Development
+
+### Adding New Features
+
+The system is modular:
+- **Scraper**: Add new data extraction in `extract_card_info_batch()`
+- **Server**: Add new endpoints in `riftbound_server.py`
+- **Frontend**: Add new modes in the `displayCard()` function
+
+### Debug Mode
+
+For detailed scraping logs:
+```python
+logging.basicConfig(level=logging.DEBUG)
+```
+
+## Performance Tips
+
+1. **Always use headless mode** for production
+2. **Close unnecessary applications** during scraping
+3. **Use "Update Cards" button** instead of refreshing page
+4. **Filter cards** to reduce rendering load
+5. **Hide setup section** after loading cards for cleaner interface
 
 ## Security Note
 
-This server is designed for local development only. Do not expose it to the internet without proper security measures.
+This server is for local development only. Do not expose to the internet without proper security measures.
 
-## Support
+## License
 
-If you encounter issues:
-1. Check the terminal/console for error messages
-2. Ensure all files are in the same directory
-3. Verify all dependencies are installed
-4. Try the manual scraping method as a fallback
+For educational purposes only. Respect the website's terms of service.
+
+## Changelog
+
+### Latest Version
+- Added "Hide Setup" button for cleaner interface control
+- Migrated from Selenium to Playwright (2-3x faster)
+- Added three learning modes
+- Auto-hide scraper interface
+- Improved error handling and debugging
+- Fixed color extraction regex
+- Added "Update Cards" button
