@@ -92,7 +92,35 @@ class RiftboundScraper:
             # Extract card name (text between first period and second period)
             name_match = re.match(r'^[^.]+\.\s*([^.]+)', alt_text)
             card_name = name_match.group(1).strip() if name_match else f"Unknown Card {idx + 1}"
+
+            # Extract card description ( How to play this card: ... )
+            how_to_play_match = re.search(r'How to play this card:\s*(.*)', alt_text)
+            how_to_play = how_to_play_match.group(1).strip() if how_to_play_match else ''
+
+            # Extract rarity (example: "Rarity: Rare.")
+            rarity_match = re.search(r'Rarity:\s*([^.]+?)\s*\.', alt_text)
+            rarity = rarity_match.group(1).strip() if rarity_match else ''
+
+            # Extract card_id from image URL (e.g., .../OGN-123.png)
+            card_id_match = re.search(r'(OGN-[\w\d]+)', src)
+            card_id = card_id_match.group(1) if card_id_match else ''
             
+            # Extract type (example: "Type: Spell." or "Type: Unit.")
+            type_match = re.search(r'Type:\s*([^.]+?)\s*\.', alt_text)
+            card_type = type_match.group(1).strip() if type_match else ''
+
+            # Extract supertype (example: "Super: Champion." or "Super: Elite.")
+            super_match = re.search(r'Super:\s*([^.]+?)\s*\.', alt_text)
+            card_super = super_match.group(1).strip() if super_match else ''
+
+            # Extract tags (example: "Tags: Dragon, Pirate.")
+            tags_match = re.search(r'Tags:\s*([^.]+?)\s*\.', alt_text)
+            tags_string = tags_match.group(1).strip() if tags_match else ''
+            if tags_string.lower() == "none" or not tags_string:
+                tags = []
+            else:
+                tags = [t.strip() for t in tags_string.split(',') if t.strip()]
+
             # Extract colors - stop at period
             color_match = re.search(r'Color:\s*([^.]+?)\s*\.', alt_text)
             color_string = color_match.group(1).strip() if color_match else ''
@@ -110,11 +138,17 @@ class RiftboundScraper:
             # Create card object
             card = {
                 'id': idx + 1,
+                'card_id': card_id,
                 'name': card_name,
                 'image': src,
                 'text': alt_text,
+                'howToPlay': how_to_play,
                 'colors': colors,
                 'colorString': color_string,
+                'type': card_type,
+                'super': card_super,
+                'tags': tags,
+                'rarity': rarity,
             }
             
             cards.append(card)

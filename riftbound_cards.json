@@ -1,1708 +1,3292 @@
 [
   {
     "id": 1,
+    "card_id": "OGN-001",
     "name": "Blazing Scorcher",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-001/full-desktop.jpg",
     "text": "Riftbound. Blazing Scorcher. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: Dragon. How to play this card: Accelerate. You may pay 1C as an additional cost to have me enter ready.",
+    "howToPlay": "Accelerate. You may pay 1C as an additional cost to have me enter ready.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Dragon"
+    ]
   },
   {
     "id": 2,
+    "card_id": "OGN-002",
     "name": "Brazen Buccaneer",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-002/full-desktop.jpg",
     "text": "Riftbound. Brazen Buccaneer. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: Pirate. How to play this card: As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by 2.",
+    "howToPlay": "As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by 2.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Pirate"
+    ]
   },
   {
     "id": 3,
+    "card_id": "OGN-003",
     "name": "Chemtech Enforcer",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-003/full-desktop.jpg",
     "text": "Riftbound. Chemtech Enforcer. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: None. How to play this card: Assault 2 +2 S while I'm an attacker. When you play me, discard 1.",
+    "howToPlay": "Assault 2 +2 S while I'm an attacker. When you play me, discard 1.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 4,
+    "card_id": "OGN-004",
     "name": "Cleave",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-004/full-desktop.jpg",
     "text": "Riftbound. Cleave. Rarity: Common. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. Give a unit Assault 3 this turn. +3 S while it's an attacker.",
+    "howToPlay": "Action Play on your turn or in showdowns. Give a unit Assault 3 this turn. +3 S while it's an attacker.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 5,
+    "card_id": "OGN-005",
     "name": "Disintegrate",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-005/full-desktop.jpg",
     "text": "Riftbound. Disintegrate. Rarity: Common. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. Deal 3 to a unit at a battlefield. If this kills it, draw 1.",
+    "howToPlay": "Action Play on your turn or in showdowns. Deal 3 to a unit at a battlefield. If this kills it, draw 1.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 6,
+    "card_id": "OGN-006",
     "name": "Flame Chompers",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-006/full-desktop.jpg",
     "text": "Riftbound. Flame Chompers. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: None. How to play this card: When you discard me, you may pay C to play me.",
+    "howToPlay": "When you discard me, you may pay C to play me.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 7,
+    "card_id": "OGN-007",
     "name": "Fury Rune",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-007/full-desktop.jpg",
     "text": "Riftbound. Fury Rune. Rarity: Common. Color: Red. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 8,
+    "card_id": "OGN-007a",
     "name": "Fury Rune (alt)",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-007a/full-desktop.jpg",
     "text": "Riftbound. Fury Rune (alt). Rarity: Common. Color: Red. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 9,
+    "card_id": "OGN-008",
     "name": "Get Excited!",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-008/full-desktop.jpg",
     "text": "Riftbound. Get Excited!. Rarity: Common. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. Discard 1. Deal its Energy cost as damage to a unit at a battlefield. Ignore its Power cost.",
+    "howToPlay": "Action Play on your turn or in showdowns. Discard 1. Deal its Energy cost as damage to a unit at a battlefield. Ignore its Power cost.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 10,
+    "card_id": "OGN-010",
     "name": "Legion Rearguard",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-010/full-desktop.jpg",
     "text": "Riftbound. Legion Rearguard. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: Trifarian. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.",
+    "howToPlay": "Accelerate You may pay 1C as an additional cost to have me enter ready.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Trifarian"
+    ]
   },
   {
     "id": 11,
+    "card_id": "OGN-011",
     "name": "Magma Wurm",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-011/full-desktop.jpg",
     "text": "Riftbound. Magma Wurm. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: None. How to play this card: Other friendly units enter ready.",
+    "howToPlay": "Other friendly units enter ready.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 12,
+    "card_id": "OGN-012",
     "name": "Noxus Hopeful",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-012/full-desktop.jpg",
     "text": "Riftbound. Noxus Hopeful. Rarity: Common. Color: Red. Type: Unit. Super: None. Tags: Trifarian. How to play this card: Legion: I cost 2 less. Get the effect if you've played another card this turn.",
+    "howToPlay": "Legion: I cost 2 less. Get the effect if you've played another card this turn.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Trifarian"
+    ]
   },
   {
     "id": 13,
+    "card_id": "OGN-014",
     "name": "Sky Splitter",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-014/full-desktop.jpg",
     "text": "Riftbound. Sky Splitter. Rarity: Common. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. This spell's Energy cost is reduced by the highest Might among units you control. Deal 5 to a unit at a battlefield.",
+    "howToPlay": "Action Play on your turn or in showdowns. This spell's Energy cost is reduced by the highest Might among units you control. Deal 5 to a unit at a battlefield.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 14,
-    "name": "Dangerous Duo",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-016/full-desktop.jpg",
-    "text": "Riftbound. Dangerous Duo. Rarity: Uncommon. Color: Red. Type: Unit. Super: None. Tags: Mech. How to play this card: Legion: When you play me, give a unit +2 S this turn. Get the effect if you've played another card this turn.",
+    "card_id": "OGN-015",
+    "name": "Captain Farron",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-015/full-desktop.jpg",
+    "text": "Riftbound. Captain Farron. Rarity: Uncommon. Color: Red. Type: Unit. Super: None. Tags: Trifarian. How to play this card: Other friendly units here have Assault. +1 S while they're attackers.",
+    "howToPlay": "Other friendly units here have Assault. +1 S while they're attackers.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Trifarian"
+    ]
   },
   {
     "id": 15,
-    "name": "Scrapyard Champion",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-020/full-desktop.jpg",
-    "text": "Riftbound. Scrapyard Champion. Rarity: Uncommon. Color: Red. Type: Unit. Super: None. Tags: Mech. How to play this card: Legion When you play me, discard 2, then draw 2. Get the effect if you've played another card this turn.",
+    "card_id": "OGN-016",
+    "name": "Dangerous Duo",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-016/full-desktop.jpg",
+    "text": "Riftbound. Dangerous Duo. Rarity: Uncommon. Color: Red. Type: Unit. Super: None. Tags: Mech. How to play this card: Legion: When you play me, give a unit +2 S this turn. Get the effect if you've played another card this turn.",
+    "howToPlay": "Legion: When you play me, give a unit +2 S this turn. Get the effect if you've played another card this turn.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Mech"
+    ]
   },
   {
     "id": 16,
-    "name": "Void Seeker",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-024/full-desktop.jpg",
-    "text": "Riftbound. Void Seeker. Rarity: Uncommon. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. Deal 4 to a unit at a battlefield. Draw 1.",
+    "card_id": "OGN-020",
+    "name": "Scrapyard Champion",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-020/full-desktop.jpg",
+    "text": "Riftbound. Scrapyard Champion. Rarity: Uncommon. Color: Red. Type: Unit. Super: None. Tags: Mech. How to play this card: Legion When you play me, discard 2, then draw 2. Get the effect if you've played another card this turn.",
+    "howToPlay": "Legion When you play me, discard 2, then draw 2. Get the effect if you've played another card this turn.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Mech"
+    ]
   },
   {
     "id": 17,
-    "name": "Darius, Trifarian",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-027/full-desktop.jpg",
-    "text": "Riftbound. Darius, Trifarian. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: When you play your second card in a turn, give me +2 S this turn and ready me.",
+    "card_id": "OGN-024",
+    "name": "Void Seeker",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-024/full-desktop.jpg",
+    "text": "Riftbound. Void Seeker. Rarity: Uncommon. Color: Red. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns. Deal 4 to a unit at a battlefield. Draw 1.",
+    "howToPlay": "Action Play on your turn or in showdowns. Deal 4 to a unit at a battlefield. Draw 1.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 18,
-    "name": "Darius, Trifarian (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-027a/full-desktop.jpg",
-    "text": "Riftbound. Darius, Trifarian (alt). Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: No instructions provided.",
+    "card_id": "OGN-027",
+    "name": "Darius, Trifarian",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-027/full-desktop.jpg",
+    "text": "Riftbound. Darius, Trifarian. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: When you play your second card in a turn, give me +2 S this turn and ready me.",
+    "howToPlay": "When you play your second card in a turn, give me +2 S this turn and ready me.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Darius",
+      "Trifarian"
+    ]
   },
   {
     "id": 19,
-    "name": "Jinx, Demolitionist",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-030/full-desktop.jpg",
-    "text": "Riftbound. Jinx, Demolitionist. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready. Assault 2 +2 S while I'm an attacker. When you play me, discard 2.",
+    "card_id": "OGN-027a",
+    "name": "Darius, Trifarian (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-027a/full-desktop.jpg",
+    "text": "Riftbound. Darius, Trifarian (alt). Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Darius",
+      "Trifarian"
+    ]
   },
   {
     "id": 20,
-    "name": "Jinx, Demolitionist (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-030a/full-desktop.jpg",
-    "text": "Riftbound. Jinx, Demolitionist (alt). Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: No instructions provided.",
+    "card_id": "OGN-028",
+    "name": "Draven, Showboat",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-028/full-desktop.jpg",
+    "text": "Riftbound. Draven, Showboat. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Draven. How to play this card: My Might is increased by your points.",
+    "howToPlay": "My Might is increased by your points.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Draven"
+    ]
   },
   {
     "id": 21,
-    "name": "Tryndamere, Barbarian",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-034/full-desktop.jpg",
-    "text": "Riftbound. Tryndamere, Barbarian. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Tryndamere. How to play this card: When I conquer after an attack, if you assigned 5 or more excess damage to enemy units, you score 1 point.",
+    "card_id": "OGN-030",
+    "name": "Jinx, Demolitionist",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-030/full-desktop.jpg",
+    "text": "Riftbound. Jinx, Demolitionist. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready. Assault 2 +2 S while I'm an attacker. When you play me, discard 2.",
+    "howToPlay": "Accelerate You may pay 1C as an additional cost to have me enter ready. Assault 2 +2 S while I'm an attacker. When you play me, discard 2.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Jinx"
+    ]
   },
   {
     "id": 22,
-    "name": "Vi, Destructive",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-036/full-desktop.jpg",
-    "text": "Riftbound. Vi, Destructive. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Vi. How to play this card: Ganking I can move from battlefield to battlefield. Recycle 1 from your trash: Give me +1 S this turn.",
+    "card_id": "OGN-030a",
+    "name": "Jinx, Demolitionist (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-030a/full-desktop.jpg",
+    "text": "Riftbound. Jinx, Demolitionist (alt). Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Jinx"
+    ]
   },
   {
     "id": 23,
-    "name": "Immortal Phoenix",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-037/full-desktop.jpg",
-    "text": "Riftbound. Immortal Phoenix. Rarity: Epic. Color: Red. Type: Unit. Super: None. Tags: Spirit. How to play this card: Assault 2 +2 S while I'm an attacker. When you kill a unit with a spell, you may pay 1C to play me from your trash.",
+    "card_id": "OGN-034",
+    "name": "Tryndamere, Barbarian",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-034/full-desktop.jpg",
+    "text": "Riftbound. Tryndamere, Barbarian. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Tryndamere. How to play this card: When I conquer after an attack, if you assigned 5 or more excess damage to enemy units, you score 1 point.",
+    "howToPlay": "When I conquer after an attack, if you assigned 5 or more excess damage to enemy units, you score 1 point.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Tryndamere"
+    ]
   },
   {
     "id": 24,
-    "name": "Kadregrin the Infernal",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-038/full-desktop.jpg",
-    "text": "Riftbound. Kadregrin the Infernal. Rarity: Epic. Color: Red. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, draw 1 for each of your Mighty units. A unit is Mighty while it has 5+ S.",
+    "card_id": "OGN-035",
+    "name": "Vayne, Hunter",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-035/full-desktop.jpg",
+    "text": "Riftbound. Vayne, Hunter. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Vayne. How to play this card: Assault 3 +3 S while I'm an attacker. If an opponent controls a battlefield, I enter ready. When I conquer, you may pay 1 to return me to my owner's hand.",
+    "howToPlay": "Assault 3 +3 S while I'm an attacker. If an opponent controls a battlefield, I enter ready. When I conquer, you may pay 1 to return me to my owner's hand.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Vayne"
+    ]
   },
   {
     "id": 25,
-    "name": "Seal of Rage",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-040/full-desktop.jpg",
-    "text": "Riftbound. Seal of Rage. Rarity: Epic. Color: Red. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-036",
+    "name": "Vi, Destructive",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-036/full-desktop.jpg",
+    "text": "Riftbound. Vi, Destructive. Rarity: Rare. Color: Red. Type: Unit. Super: Champion. Tags: Vi. How to play this card: Ganking I can move from battlefield to battlefield. Recycle 1 from your trash: Give me +1 S this turn.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield. Recycle 1 from your trash: Give me +1 S this turn.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Vi"
+    ]
   },
   {
     "id": 26,
-    "name": "Volibear, Furious",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-041/full-desktop.jpg",
-    "text": "Riftbound. Volibear, Furious. Rarity: Epic. Color: Red. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Deflect 2 Opponents must pay AA to choose me with a spell or ability.\n When I attack, deal 5 damage split among any number of enemy units here.",
+    "card_id": "OGN-037",
+    "name": "Immortal Phoenix",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-037/full-desktop.jpg",
+    "text": "Riftbound. Immortal Phoenix. Rarity: Epic. Color: Red. Type: Unit. Super: None. Tags: Spirit. How to play this card: Assault 2 +2 S while I'm an attacker. When you kill a unit with a spell, you may pay 1C to play me from your trash.",
+    "howToPlay": "Assault 2 +2 S while I'm an attacker. When you kill a unit with a spell, you may pay 1C to play me from your trash.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Spirit"
+    ]
   },
   {
     "id": 27,
-    "name": "Volibear, Furious (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-041a/full-desktop.jpg",
-    "text": "Riftbound. Volibear, Furious (alt). Rarity: Epic. Color: Red. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: No instructions provided.",
+    "card_id": "OGN-038",
+    "name": "Kadregrin the Infernal",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-038/full-desktop.jpg",
+    "text": "Riftbound. Kadregrin the Infernal. Rarity: Epic. Color: Red. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, draw 1 for each of your Mighty units. A unit is Mighty while it has 5+ S.",
+    "howToPlay": "When you play me, draw 1 for each of your Mighty units. A unit is Mighty while it has 5+ S.",
     "colors": [
       "Red"
     ],
-    "colorString": "Red"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Dragon"
+    ]
   },
   {
     "id": 28,
-    "name": "Calm Rune",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-042/full-desktop.jpg",
-    "text": "Riftbound. Calm Rune. Rarity: Common. Color: Green. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-040",
+    "name": "Seal of Rage",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-040/full-desktop.jpg",
+    "text": "Riftbound. Seal of Rage. Rarity: Epic. Color: Red. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "colorString": "Green"
+    "colorString": "Red",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 29,
-    "name": "Calm Rune (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-042a/full-desktop.jpg",
-    "text": "Riftbound. Calm Rune (alt). Rarity: Common. Color: Green. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-041",
+    "name": "Volibear, Furious",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-041/full-desktop.jpg",
+    "text": "Riftbound. Volibear, Furious. Rarity: Epic. Color: Red. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Deflect 2 Opponents must pay AA to choose me with a spell or ability.\n When I attack, deal 5 damage split among any number of enemy units here.",
+    "howToPlay": "Deflect 2 Opponents must pay AA to choose me with a spell or ability.",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "colorString": "Green"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
     "id": 30,
-    "name": "Charm",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-043/full-desktop.jpg",
-    "text": "Riftbound. Charm. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Move an enemy unit.",
+    "card_id": "OGN-041a",
+    "name": "Volibear, Furious (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-041a/full-desktop.jpg",
+    "text": "Riftbound. Volibear, Furious (alt). Rarity: Epic. Color: Red. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "colorString": "Green"
+    "colorString": "Red",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
     "id": 31,
-    "name": "Clockwork Keeper",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-044/full-desktop.jpg",
-    "text": "Riftbound. Clockwork Keeper. Rarity: Common. Color: Green. Type: Unit. Super: None. Tags: None. How to play this card: As you play me, you may pay C as an additional cost. If you do, draw 1.",
+    "card_id": "OGN-042",
+    "name": "Calm Rune",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-042/full-desktop.jpg",
+    "text": "Riftbound. Calm Rune. Rarity: Common. Color: Green. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 32,
-    "name": "Defy",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-045/full-desktop.jpg",
-    "text": "Riftbound. Defy. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Counter a spell that costs no more than 4 and no more than A.",
+    "card_id": "OGN-042a",
+    "name": "Calm Rune (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-042a/full-desktop.jpg",
+    "text": "Riftbound. Calm Rune (alt). Rarity: Common. Color: Green. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 33,
-    "name": "En Garde",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-046/full-desktop.jpg",
-    "text": "Riftbound. En Garde. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a friendly unit +1 S this turn, then an additional +1 S this turn if it is the only unit you control there.",
+    "card_id": "OGN-043",
+    "name": "Charm",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-043/full-desktop.jpg",
+    "text": "Riftbound. Charm. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Move an enemy unit.",
+    "howToPlay": "Move an enemy unit.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 34,
-    "name": "Meditation",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-048/full-desktop.jpg",
-    "text": "Riftbound. Meditation. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n As an additional cost to play this, you may exhaust a friendly unit. If you do, draw 2. Otherwise, draw 1.",
+    "card_id": "OGN-044",
+    "name": "Clockwork Keeper",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-044/full-desktop.jpg",
+    "text": "Riftbound. Clockwork Keeper. Rarity: Common. Color: Green. Type: Unit. Super: None. Tags: None. How to play this card: As you play me, you may pay C as an additional cost. If you do, draw 1.",
+    "howToPlay": "As you play me, you may pay C as an additional cost. If you do, draw 1.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 35,
-    "name": "Stand United",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-053/full-desktop.jpg",
-    "text": "Riftbound. Stand United. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Buff a friendly unit. Buffs give an additional +1 S to friendly units this turn. To buff a unit, give it a +1 S buff if it doesn't already have one.",
+    "card_id": "OGN-045",
+    "name": "Defy",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-045/full-desktop.jpg",
+    "text": "Riftbound. Defy. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Counter a spell that costs no more than 4 and no more than A.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 36,
-    "name": "Wielder of Water",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-055/full-desktop.jpg",
-    "text": "Riftbound. Wielder of Water. Rarity: Common. Color: Green. Type: Unit. Super: None. Tags: None. How to play this card: While I'm attacking or defending alone, I have +2 S.",
+    "card_id": "OGN-046",
+    "name": "En Garde",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-046/full-desktop.jpg",
+    "text": "Riftbound. En Garde. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a friendly unit +1 S this turn, then an additional +1 S this turn if it is the only unit you control there.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 37,
-    "name": "Adaptatron",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-056/full-desktop.jpg",
-    "text": "Riftbound. Adaptatron. Rarity: Uncommon. Color: Green. Type: Unit. Super: None. Tags: Mech. How to play this card: When I conquer, you may kill a gear. If you do, buff me. If I don't have a buff, I get a +1 S buff.",
+    "card_id": "OGN-048",
+    "name": "Meditation",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-048/full-desktop.jpg",
+    "text": "Riftbound. Meditation. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n As an additional cost to play this, you may exhaust a friendly unit. If you do, draw 2. Otherwise, draw 1.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 38,
-    "name": "Block",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-057/full-desktop.jpg",
-    "text": "Riftbound. Block. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Give a unit Shield 3 and Tank this turn. +3 S while it's a defender. It must be assigned combat damage first.",
+    "card_id": "OGN-050",
+    "name": "Rune Prison",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-050/full-desktop.jpg",
+    "text": "Riftbound. Rune Prison. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Stun a unit. It doesn't deal combat damage this turn.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 39,
-    "name": "Discipline",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-058/full-desktop.jpg",
-    "text": "Riftbound. Discipline. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a unit +2 S this turn. Draw 1.",
+    "card_id": "OGN-053",
+    "name": "Stand United",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-053/full-desktop.jpg",
+    "text": "Riftbound. Stand United. Rarity: Common. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Buff a friendly unit. Buffs give an additional +1 S to friendly units this turn. To buff a unit, give it a +1 S buff if it doesn't already have one.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 40,
-    "name": "Eclipse Herald",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-059/full-desktop.jpg",
-    "text": "Riftbound. Eclipse Herald. Rarity: Uncommon. Color: Green. Type: Unit. Super: None. Tags: Bird. How to play this card: When you stun an enemy unit, ready me and give me +1 S this turn.",
+    "card_id": "OGN-055",
+    "name": "Wielder of Water",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-055/full-desktop.jpg",
+    "text": "Riftbound. Wielder of Water. Rarity: Common. Color: Green. Type: Unit. Super: None. Tags: None. How to play this card: While I'm attacking or defending alone, I have +2 S.",
+    "howToPlay": "While I'm attacking or defending alone, I have +2 S.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 41,
-    "name": "Spirit's Refuge",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-063/full-desktop.jpg",
-    "text": "Riftbound. Spirit's Refuge. Rarity: Uncommon. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: When you play this, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.\n Friendly buffed units have Deflect if they didn't already. Opponents must pay A to choose those units with a spell or ability.",
+    "card_id": "OGN-056",
+    "name": "Adaptatron",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-056/full-desktop.jpg",
+    "text": "Riftbound. Adaptatron. Rarity: Uncommon. Color: Green. Type: Unit. Super: None. Tags: Mech. How to play this card: When I conquer, you may kill a gear. If you do, buff me. If I don't have a buff, I get a +1 S buff.",
+    "howToPlay": "When I conquer, you may kill a gear. If you do, buff me. If I don't have a buff, I get a +1 S buff.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Mech"
+    ]
   },
   {
     "id": 42,
-    "name": "Wind Wall",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-064/full-desktop.jpg",
-    "text": "Riftbound. Wind Wall. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Counter a spell.",
+    "card_id": "OGN-057",
+    "name": "Block",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-057/full-desktop.jpg",
+    "text": "Riftbound. Block. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Give a unit Shield 3 and Tank this turn. +3 S while it's a defender. It must be assigned combat damage first.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 43,
-    "name": "Ahri, Alluring",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-066/full-desktop.jpg",
-    "text": "Riftbound. Ahri, Alluring. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: When I hold, you score 1 point.",
+    "card_id": "OGN-058",
+    "name": "Discipline",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-058/full-desktop.jpg",
+    "text": "Riftbound. Discipline. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a unit +2 S this turn. Draw 1.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 44,
-    "name": "Ahri, Alluring (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-066a/full-desktop.jpg",
-    "text": "Riftbound. Ahri, Alluring (alt). Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: No instructions provided.",
+    "card_id": "OGN-059",
+    "name": "Eclipse Herald",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-059/full-desktop.jpg",
+    "text": "Riftbound. Eclipse Herald. Rarity: Uncommon. Color: Green. Type: Unit. Super: None. Tags: Bird. How to play this card: When you stun an enemy unit, ready me and give me +1 S this turn.",
+    "howToPlay": "When you stun an enemy unit, ready me and give me +1 S this turn.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Bird"
+    ]
   },
   {
     "id": 45,
-    "name": "Caitlyn, Patrolling",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-068/full-desktop.jpg",
-    "text": "Riftbound. Caitlyn, Patrolling. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Caitlyn. How to play this card: I must be assigned combat damage last.\n T: Deal damage equal to my Might to a unit at a battlefield. Use this ability only while I'm at a battlefield.",
+    "card_id": "OGN-063",
+    "name": "Spirit's Refuge",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-063/full-desktop.jpg",
+    "text": "Riftbound. Spirit's Refuge. Rarity: Uncommon. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: When you play this, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.\n Friendly buffed units have Deflect if they didn't already. Opponents must pay A to choose those units with a spell or ability.",
+    "howToPlay": "When you play this, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 46,
-    "name": "Sona, Harmonious",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-073/full-desktop.jpg",
-    "text": "Riftbound. Sona, Harmonious. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Sona. How to play this card: While I'm at a battlefield, ready 4 friendly runes at the end of your turn.",
+    "card_id": "OGN-064",
+    "name": "Wind Wall",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-064/full-desktop.jpg",
+    "text": "Riftbound. Wind Wall. Rarity: Uncommon. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Counter a spell.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 47,
-    "name": "Yasuo, Remorseful",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-076/full-desktop.jpg",
-    "text": "Riftbound. Yasuo, Remorseful. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: When I attack, deal damage equal to my Might to an enemy unit here.",
+    "card_id": "OGN-066",
+    "name": "Ahri, Alluring",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-066/full-desktop.jpg",
+    "text": "Riftbound. Ahri, Alluring. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: When I hold, you score 1 point.",
+    "howToPlay": "When I hold, you score 1 point.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Ahri"
+    ]
   },
   {
     "id": 48,
-    "name": "Yasuo, Remorseful (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-076a/full-desktop.jpg",
-    "text": "Riftbound. Yasuo, Remorseful (alt). Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: No instructions provided.",
+    "card_id": "OGN-066a",
+    "name": "Ahri, Alluring (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-066a/full-desktop.jpg",
+    "text": "Riftbound. Ahri, Alluring (alt). Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Ahri"
+    ]
   },
   {
     "id": 49,
-    "name": "Zhonya's Hourglass",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-077/full-desktop.jpg",
-    "text": "Riftbound. Zhonya's Hourglass. Rarity: Rare. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n The next time a friendly unit would die, kill this instead. Recall that unit exhausted. Send it to base. This isn't a move.",
+    "card_id": "OGN-068",
+    "name": "Caitlyn, Patrolling",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-068/full-desktop.jpg",
+    "text": "Riftbound. Caitlyn, Patrolling. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Caitlyn. How to play this card: I must be assigned combat damage last.\n T: Deal damage equal to my Might to a unit at a battlefield. Use this ability only while I'm at a battlefield.",
+    "howToPlay": "I must be assigned combat damage last.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Caitlyn"
+    ]
   },
   {
     "id": 50,
-    "name": "Lee Sin, Ascetic",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-078/full-desktop.jpg",
-    "text": "Riftbound. Lee Sin, Ascetic. Rarity: Epic. Color: Green. Type: Unit. Super: Champion. Tags: Lee Sin. How to play this card: Shield +1 S while I'm a defender.\n T: Buff me. I get a +1 S buff.\n I can have any number of buffs.",
+    "card_id": "OGN-069",
+    "name": "Last Stand",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-069/full-desktop.jpg",
+    "text": "Riftbound. Last Stand. Rarity: Rare. Color: Green. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Double a friendly unit's Might this turn. Give it Temporary. Kill it at the start of its controller's Beginning Phase, before scoring.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 51,
-    "name": "Lee Sin, Ascetic",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-078a/full-desktop.jpg",
-    "text": "Riftbound. Lee Sin, Ascetic. Rarity: Epic. Color: Green. Type: Unit. Super: Champion. Tags: Lee Sin. How to play this card: No instructions provided.",
+    "card_id": "OGN-073",
+    "name": "Sona, Harmonious",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-073/full-desktop.jpg",
+    "text": "Riftbound. Sona, Harmonious. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Sona. How to play this card: While I'm at a battlefield, ready 4 friendly runes at the end of your turn.",
+    "howToPlay": "While I'm at a battlefield, ready 4 friendly runes at the end of your turn.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Sona"
+    ]
   },
   {
     "id": 52,
-    "name": "Seal of Focus",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-081/full-desktop.jpg",
-    "text": "Riftbound. Seal of Focus. Rarity: Epic. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-074",
+    "name": "Taric, Protector",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-074/full-desktop.jpg",
+    "text": "Riftbound. Taric, Protector. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Taric. How to play this card: Shield +1 S while I'm a defender.\n Tank I must be assigned combat damage first.\n Other friendly units here have Shield.",
+    "howToPlay": "Shield +1 S while I'm a defender.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Taric"
+    ]
   },
   {
     "id": 53,
-    "name": "Whiteflame Protector",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-082/full-desktop.jpg",
-    "text": "Riftbound. Whiteflame Protector. Rarity: Epic. Color: Green. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, give a unit +8 S this turn.",
+    "card_id": "OGN-076",
+    "name": "Yasuo, Remorseful",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-076/full-desktop.jpg",
+    "text": "Riftbound. Yasuo, Remorseful. Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: When I attack, deal damage equal to my Might to an enemy unit here.",
+    "howToPlay": "When I attack, deal damage equal to my Might to an enemy unit here.",
     "colors": [
       "Green"
     ],
-    "colorString": "Green"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
     "id": 54,
-    "name": "Eager Apprentice",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-084/full-desktop.jpg",
-    "text": "Riftbound. Eager Apprentice. Rarity: Common. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: While I'm at a battlefield, the Energy costs for spells you play is reduced by 1, to a minimum of 1.",
+    "card_id": "OGN-076a",
+    "name": "Yasuo, Remorseful (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-076a/full-desktop.jpg",
+    "text": "Riftbound. Yasuo, Remorseful (alt). Rarity: Rare. Color: Green. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
     "id": 55,
-    "name": "Mind Rune",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-089/full-desktop.jpg",
-    "text": "Riftbound. Mind Rune. Rarity: Common. Color: Blue. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-077",
+    "name": "Zhonya's Hourglass",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-077/full-desktop.jpg",
+    "text": "Riftbound. Zhonya's Hourglass. Rarity: Rare. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n The next time a friendly unit would die, kill this instead. Recall that unit exhausted. Send it to base. This isn't a move.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 56,
-    "name": "Mind Rune (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-089a/full-desktop.jpg",
-    "text": "Riftbound. Mind Rune (alt). Rarity: Common. Color: Blue. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-078",
+    "name": "Lee Sin, Ascetic",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-078/full-desktop.jpg",
+    "text": "Riftbound. Lee Sin, Ascetic. Rarity: Epic. Color: Green. Type: Unit. Super: Champion. Tags: Lee Sin. How to play this card: Shield +1 S while I'm a defender.\n T: Buff me. I get a +1 S buff.\n I can have any number of buffs.",
+    "howToPlay": "Shield +1 S while I'm a defender.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Lee Sin"
+    ]
   },
   {
     "id": 57,
-    "name": "Sprite Call",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-094/full-desktop.jpg",
-    "text": "Riftbound. Sprite Call. Rarity: Common. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Play a ready 3 S Sprite unit token with Temporary. Kill it at the start of its controller's Beginning Phase, before scoring.",
+    "card_id": "OGN-078a",
+    "name": "Lee Sin, Ascetic",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-078a/full-desktop.jpg",
+    "text": "Riftbound. Lee Sin, Ascetic. Rarity: Epic. Color: Green. Type: Unit. Super: Champion. Tags: Lee Sin. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Lee Sin"
+    ]
   },
   {
     "id": 58,
-    "name": "Stupefy",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-095/full-desktop.jpg",
-    "text": "Riftbound. Stupefy. Rarity: Common. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a unit -1 S this turn, to a minimum of 1 S. Draw 1.",
+    "card_id": "OGN-081",
+    "name": "Seal of Focus",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-081/full-desktop.jpg",
+    "text": "Riftbound. Seal of Focus. Rarity: Epic. Color: Green. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 59,
-    "name": "Watchful Sentry",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-096/full-desktop.jpg",
-    "text": "Riftbound. Watchful Sentry. Rarity: Common. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Draw 1. When I die, get the effect.",
+    "card_id": "OGN-082",
+    "name": "Whiteflame Protector",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-082/full-desktop.jpg",
+    "text": "Riftbound. Whiteflame Protector. Rarity: Epic. Color: Green. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, give a unit +8 S this turn.",
+    "howToPlay": "When you play me, give a unit +8 S this turn.",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "colorString": "Blue"
+    "colorString": "Green",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Dragon"
+    ]
   },
   {
     "id": 60,
-    "name": "Blastcone Fae",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-097/full-desktop.jpg",
-    "text": "Riftbound. Blastcone Fae. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: Fae. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give a unit -2 S this turn, to a minimum of 1 S.",
+    "card_id": "OGN-083",
+    "name": "Consult the Past",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-083/full-desktop.jpg",
+    "text": "Riftbound. Consult the Past. Rarity: Common. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Reaction Play any time, even before spells and abilities resolve.\n Draw 2.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 61,
-    "name": "Garbage Grabber",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-099/full-desktop.jpg",
-    "text": "Riftbound. Garbage Grabber. Rarity: Uncommon. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: Recycle 3 from your trash, 1, T: Draw 1.",
+    "card_id": "OGN-084",
+    "name": "Eager Apprentice",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-084/full-desktop.jpg",
+    "text": "Riftbound. Eager Apprentice. Rarity: Common. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: While I'm at a battlefield, the Energy costs for spells you play is reduced by 1, to a minimum of 1.",
+    "howToPlay": "While I'm at a battlefield, the Energy costs for spells you play is reduced by 1, to a minimum of 1.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 62,
-    "name": "Gemcraft Seer",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-100/full-desktop.jpg",
-    "text": "Riftbound. Gemcraft Seer. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: Vision When you play me, look at the top card of your Main Deck. You may recycle it.\n Other friendly units have Vision.",
+    "card_id": "OGN-089",
+    "name": "Mind Rune",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-089/full-desktop.jpg",
+    "text": "Riftbound. Mind Rune. Rarity: Common. Color: Blue. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 63,
-    "name": "Mushroom Pouch",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-101/full-desktop.jpg",
-    "text": "Riftbound. Mushroom Pouch. Rarity: Uncommon. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: At the start of your Beginning Phase, if you control a facedown card at a battlefield, draw 1.",
+    "card_id": "OGN-089a",
+    "name": "Mind Rune (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-089a/full-desktop.jpg",
+    "text": "Riftbound. Mind Rune (alt). Rarity: Common. Color: Blue. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 64,
-    "name": "Ravenbloom Student",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-103/full-desktop.jpg",
-    "text": "Riftbound. Ravenbloom Student. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: When you play a spell, give me +1 S this turn.",
+    "card_id": "OGN-094",
+    "name": "Sprite Call",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-094/full-desktop.jpg",
+    "text": "Riftbound. Sprite Call. Rarity: Common. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Play a ready 3 S Sprite unit token with Temporary. Kill it at the start of its controller's Beginning Phase, before scoring.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 65,
-    "name": "Ekko, Recurrent",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-110/full-desktop.jpg",
-    "text": "Riftbound. Ekko, Recurrent. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Ekko. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Deathknell: Recycle me to ready your runes. When I die, get the effect.",
+    "card_id": "OGN-095",
+    "name": "Stupefy",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-095/full-desktop.jpg",
+    "text": "Riftbound. Stupefy. Rarity: Common. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Give a unit -1 S this turn, to a minimum of 1 S. Draw 1.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 66,
-    "name": "Heimerdinger, Inventor",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-111/full-desktop.jpg",
-    "text": "Riftbound. Heimerdinger, Inventor. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Heimerdinger,Yordle. How to play this card: I have all T abilities of all friendly legends, units, and gear.",
+    "card_id": "OGN-096",
+    "name": "Watchful Sentry",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-096/full-desktop.jpg",
+    "text": "Riftbound. Watchful Sentry. Rarity: Common. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Draw 1. When I die, get the effect.",
+    "howToPlay": "Deathknell: Draw 1. When I die, get the effect.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 67,
-    "name": "Kai'Sa, Evolutionary",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-112/full-desktop.jpg",
-    "text": "Riftbound. Kai'Sa, Evolutionary. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Kai'Sa. How to play this card: Ganking I can move from battlefield to battlefield.\n When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. You must still pay its Power cost.",
+    "card_id": "OGN-097",
+    "name": "Blastcone Fae",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-097/full-desktop.jpg",
+    "text": "Riftbound. Blastcone Fae. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: Fae. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give a unit -2 S this turn, to a minimum of 1 S.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Fae"
+    ]
   },
   {
     "id": 68,
-    "name": "Kai'Sa, Evolutionary",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-112a/full-desktop.jpg",
-    "text": "Riftbound. Kai'Sa, Evolutionary. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Kai'Sa. How to play this card: Ganking I can move from battlefield to battlefield.\n When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. You must still pay its Power cost.",
+    "card_id": "OGN-099",
+    "name": "Garbage Grabber",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-099/full-desktop.jpg",
+    "text": "Riftbound. Garbage Grabber. Rarity: Uncommon. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: Recycle 3 from your trash, 1, T: Draw 1.",
+    "howToPlay": "Recycle 3 from your trash, 1, T: Draw 1.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 69,
-    "name": "Promising Future",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-115/full-desktop.jpg",
-    "text": "Riftbound. Promising Future. Rarity: Rare. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Each player looks at the top 5 cards of their Main Deck, chooses one, then recycles the rest. Starting with the next player, each player plays those cards, ignoring Energy costs. They must still pay Power costs.",
+    "card_id": "OGN-100",
+    "name": "Gemcraft Seer",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-100/full-desktop.jpg",
+    "text": "Riftbound. Gemcraft Seer. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: Vision When you play me, look at the top card of your Main Deck. You may recycle it.\n Other friendly units have Vision.",
+    "howToPlay": "Vision When you play me, look at the top card of your Main Deck. You may recycle it.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 70,
-    "name": "Wraith of Echoes",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-118/full-desktop.jpg",
-    "text": "Riftbound. Wraith of Echoes. Rarity: Rare. Color: Blue. Type: Unit. Super: None. Tags: Spirit. How to play this card: The first time a friendly unit dies each turn, draw 1.",
+    "card_id": "OGN-101",
+    "name": "Mushroom Pouch",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-101/full-desktop.jpg",
+    "text": "Riftbound. Mushroom Pouch. Rarity: Uncommon. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: At the start of your Beginning Phase, if you control a facedown card at a battlefield, draw 1.",
+    "howToPlay": "At the start of your Beginning Phase, if you control a facedown card at a battlefield, draw 1.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 71,
-    "name": "Seal of Insight",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-120/full-desktop.jpg",
-    "text": "Riftbound. Seal of Insight. Rarity: Epic. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-103",
+    "name": "Ravenbloom Student",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-103/full-desktop.jpg",
+    "text": "Riftbound. Ravenbloom Student. Rarity: Uncommon. Color: Blue. Type: Unit. Super: None. Tags: None. How to play this card: When you play a spell, give me +1 S this turn.",
+    "howToPlay": "When you play a spell, give me +1 S this turn.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 72,
-    "name": "Unchecked Power",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-123/full-desktop.jpg",
-    "text": "Riftbound. Unchecked Power. Rarity: Epic. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Exhaust all friendly units, then deal 12 to ALL units at battlefields.",
+    "card_id": "OGN-110",
+    "name": "Ekko, Recurrent",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-110/full-desktop.jpg",
+    "text": "Riftbound. Ekko, Recurrent. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Ekko. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Deathknell: Recycle me to ready your runes. When I die, get the effect.",
+    "howToPlay": "Accelerate You may pay 1C as an additional cost to have me enter ready.",
     "colors": [
       "Blue"
     ],
-    "colorString": "Blue"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Ekko"
+    ]
   },
   {
     "id": 73,
-    "name": "Arena Bar",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-124/full-desktop.jpg",
-    "text": "Riftbound. Arena Bar. Rarity: Common. Color: Orange. Type: Gear. Super: None. Tags: None. How to play this card: T: Buff an exhausted friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
+    "card_id": "OGN-111",
+    "name": "Heimerdinger, Inventor",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-111/full-desktop.jpg",
+    "text": "Riftbound. Heimerdinger, Inventor. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Heimerdinger,Yordle. How to play this card: I have all T abilities of all friendly legends, units, and gear.",
+    "howToPlay": "I have all T abilities of all friendly legends, units, and gear.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Heimerdinger",
+      "Yordle"
+    ]
   },
   {
     "id": 74,
-    "name": "Body Rune",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-126/full-desktop.jpg",
-    "text": "Riftbound. Body Rune. Rarity: Common. Color: Orange. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-112",
+    "name": "Kai'Sa, Evolutionary",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-112/full-desktop.jpg",
+    "text": "Riftbound. Kai'Sa, Evolutionary. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Kai'Sa. How to play this card: Ganking I can move from battlefield to battlefield.\n When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. You must still pay its Power cost.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Kai'Sa"
+    ]
   },
   {
     "id": 75,
-    "name": "Body Rune (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-126a/full-desktop.jpg",
-    "text": "Riftbound. Body Rune (alt). Rarity: Common. Color: Orange. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-112a",
+    "name": "Kai'Sa, Evolutionary",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-112a/full-desktop.jpg",
+    "text": "Riftbound. Kai'Sa, Evolutionary. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Kai'Sa. How to play this card: Ganking I can move from battlefield to battlefield.\n When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. You must still pay its Power cost.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Kai'Sa"
+    ]
   },
   {
     "id": 76,
-    "name": "Challenge",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-128/full-desktop.jpg",
-    "text": "Riftbound. Challenge. Rarity: Common. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Choose a friendly unit and an enemy unit. They deal damage equal to their Mights to each other.",
+    "card_id": "OGN-113",
+    "name": "Malzahar, Fanatic",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-113/full-desktop.jpg",
+    "text": "Riftbound. Malzahar, Fanatic. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Malzahar. How to play this card: Kill a friendly unit or gear, T: Action: Add AA. Use on your turn or in showdowns. Abilities that add resources can't be reacted to.",
+    "howToPlay": "Kill a friendly unit or gear, T: Action: Add AA. Use on your turn or in showdowns. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Malzahar"
+    ]
   },
   {
     "id": 77,
-    "name": "First Mate",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-132/full-desktop.jpg",
-    "text": "Riftbound. First Mate. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: Pirate. How to play this card: When you play me, ready another unit.",
+    "card_id": "OGN-115",
+    "name": "Promising Future",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-115/full-desktop.jpg",
+    "text": "Riftbound. Promising Future. Rarity: Rare. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Each player looks at the top 5 cards of their Main Deck, chooses one, then recycles the rest. Starting with the next player, each player plays those cards, ignoring Energy costs. They must still pay Power costs.",
+    "howToPlay": "Each player looks at the top 5 cards of their Main Deck, chooses one, then recycles the rest. Starting with the next player, each player plays those cards, ignoring Energy costs. They must still pay Power costs.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 78,
-    "name": "Mobilize",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-134/full-desktop.jpg",
-    "text": "Riftbound. Mobilize. Rarity: Common. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Channel 1 rune exhausted. If you can't, draw 1.",
+    "card_id": "OGN-117",
+    "name": "Viktor, Innovator",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-117/full-desktop.jpg",
+    "text": "Riftbound. Viktor, Innovator. Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When you play a card on an opponent's turn, play a 1 S Recruit unit token in your base.",
+    "howToPlay": "When you play a card on an opponent's turn, play a 1 S Recruit unit token in your base.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Viktor"
+    ]
   },
   {
     "id": 79,
-    "name": "Stormclaw Ursine",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-137/full-desktop.jpg",
-    "text": "Riftbound. Stormclaw Ursine. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Tank I must be assigned combat damage first.\n When you play me, channel 1 rune exhausted.",
+    "card_id": "OGN-117a",
+    "name": "Viktor, Innovator (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-117a/full-desktop.jpg",
+    "text": "Riftbound. Viktor, Innovator (alt). Rarity: Rare. Color: Blue. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When you play a card on an opponent's turn, play a 1 S Recruit unit token in your base.",
+    "howToPlay": "When you play a card on an opponent's turn, play a 1 S Recruit unit token in your base.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Viktor"
+    ]
   },
   {
     "id": 80,
-    "name": "Catalyst of Aeons",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-138/full-desktop.jpg",
-    "text": "Riftbound. Catalyst of Aeons. Rarity: Uncommon. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Channel 2 runes exhausted. If you couldn't channel 2 runes this way, draw 1.",
+    "card_id": "OGN-118",
+    "name": "Wraith of Echoes",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-118/full-desktop.jpg",
+    "text": "Riftbound. Wraith of Echoes. Rarity: Rare. Color: Blue. Type: Unit. Super: None. Tags: Spirit. How to play this card: The first time a friendly unit dies each turn, draw 1.",
+    "howToPlay": "The first time a friendly unit dies each turn, draw 1.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Spirit"
+    ]
   },
   {
     "id": 81,
-    "name": "Cithria of Cloudfield",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-139/full-desktop.jpg",
-    "text": "Riftbound. Cithria of Cloudfield. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: Elite. How to play this card: When you play another unit, buff me. If I don't have a buff, I get a +1 S buff.",
+    "card_id": "OGN-119",
+    "name": "Ahri, Inquisitive",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-119/full-desktop.jpg",
+    "text": "Riftbound. Ahri, Inquisitive. Rarity: Epic. Color: Blue. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: When I attack or defend, give an enemy unit here -2 S this turn, to a minimum of 1 S.",
+    "howToPlay": "When I attack or defend, give an enemy unit here -2 S this turn, to a minimum of 1 S.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Ahri"
+    ]
   },
   {
     "id": 82,
-    "name": "Herald of Scales",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-140/full-desktop.jpg",
-    "text": "Riftbound. Herald of Scales. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Your Dragons' Energy costs are reduced by 2, to a minimum of 1.",
+    "card_id": "OGN-119a",
+    "name": "Ahri, Inquisitive (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-119a/full-desktop.jpg",
+    "text": "Riftbound. Ahri, Inquisitive (alt). Rarity: Epic. Color: Blue. Type: Unit. Super: Champion. Tags: Ahri. How to play this card: When I attack or defend, give an enemy unit here -2 S this turn, to a minimum of 1 S.",
+    "howToPlay": "When I attack or defend, give an enemy unit here -2 S this turn, to a minimum of 1 S.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Ahri"
+    ]
   },
   {
     "id": 83,
-    "name": "Wildclaw Shaman",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-147/full-desktop.jpg",
-    "text": "Riftbound. Wildclaw Shaman. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, you may spend a buff to buff me and ready me. If I don't have a buff, I get a +1 S buff.",
+    "card_id": "OGN-120",
+    "name": "Seal of Insight",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-120/full-desktop.jpg",
+    "text": "Riftbound. Seal of Insight. Rarity: Epic. Color: Blue. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 84,
-    "name": "Anivia, Primal",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-148/full-desktop.jpg",
-    "text": "Riftbound. Anivia, Primal. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Anivia,Bird. How to play this card: When I attack, deal 3 to all enemy units here.",
+    "card_id": "OGN-121",
+    "name": "Teemo, Strategist",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-121/full-desktop.jpg",
+    "text": "Riftbound. Teemo, Strategist. Rarity: Epic. Color: Blue. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When I defend or I'm played from Hidden, reveal the top 5 cards of your Main Deck. Deal 1 to an enemy unit here for each card with Hidden, then recycle them.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Teemo",
+      "Yordle"
+    ]
   },
   {
     "id": 85,
-    "name": "Carnivorous Snapvine",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-149/full-desktop.jpg",
-    "text": "Riftbound. Carnivorous Snapvine. Rarity: Rare. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, choose an enemy unit at a battlefield. We deal damage equal to our Mights to each other.",
+    "card_id": "OGN-121a",
+    "name": "Teemo, Strategist (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-121a/full-desktop.jpg",
+    "text": "Riftbound. Teemo, Strategist (alt). Rarity: Epic. Color: Blue. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When I defend or I'm played from Hidden, reveal the top 5 cards of your Main Deck. Deal 1 to an enemy unit here for each card with Hidden, then recycle them.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Teemo",
+      "Yordle"
+    ]
   },
   {
     "id": 86,
-    "name": "Volibear, Imposing",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-158/full-desktop.jpg",
-    "text": "Riftbound. Volibear, Imposing. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Shield 3 +3 S while I'm a defender.\n Tank I must be assigned combat damage first.\n When an opponent moves to a battlefield other than mine, draw 1. Bases are not battlefield.",
+    "card_id": "OGN-123",
+    "name": "Unchecked Power",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-123/full-desktop.jpg",
+    "text": "Riftbound. Unchecked Power. Rarity: Epic. Color: Blue. Type: Spell. Super: None. Tags: None. How to play this card: Exhaust all friendly units, then deal 12 to ALL units at battlefields.",
+    "howToPlay": "Exhaust all friendly units, then deal 12 to ALL units at battlefields.",
     "colors": [
-      "Orange"
+      "Blue"
     ],
-    "colorString": "Orange"
+    "colorString": "Blue",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 87,
-    "name": "Volibear, Imposing (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-158a/full-desktop.jpg",
-    "text": "Riftbound. Volibear, Imposing (alt). Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Shield 3 +3 S while I'm a defender.\n Tank I must be assigned combat damage first.\n When an opponent moves to a battlefield other than mine, draw 1. Bases are not battlefield.",
+    "card_id": "OGN-124",
+    "name": "Arena Bar",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-124/full-desktop.jpg",
+    "text": "Riftbound. Arena Bar. Rarity: Common. Color: Orange. Type: Gear. Super: None. Tags: None. How to play this card: T: Buff an exhausted friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
+    "howToPlay": "T: Buff an exhausted friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 88,
-    "name": "Warwick, Hunter",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-159/full-desktop.jpg",
-    "text": "Riftbound. Warwick, Hunter. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Warwick,Dog. How to play this card: I enter ready.\n When I attack, kill all damaged enemy units here.",
+    "card_id": "OGN-125",
+    "name": "Bilgewater Bully",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-125/full-desktop.jpg",
+    "text": "Riftbound. Bilgewater Bully. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: While I'm buffed, I have Ganking. I can move from battlefield to battlefield.",
+    "howToPlay": "While I'm buffed, I have Ganking. I can move from battlefield to battlefield.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 89,
-    "name": "Deadbloom Predator",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-161/full-desktop.jpg",
-    "text": "Riftbound. Deadbloom Predator. Rarity: Epic. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Deflect Opponents must pay A to choose me with a spell or ability.\n You may play me to an occupied enemy battlefield.",
+    "card_id": "OGN-126",
+    "name": "Body Rune",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-126/full-desktop.jpg",
+    "text": "Riftbound. Body Rune. Rarity: Common. Color: Orange. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 90,
-    "name": "Miss Fortune, Captain",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-162/full-desktop.jpg",
-    "text": "Riftbound. Miss Fortune, Captain. Rarity: Epic. Color: Orange. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Ganking I can move from battlefield to battlefield.\n The first time I move each turn, you may ready something else that's exhausted.",
+    "card_id": "OGN-126a",
+    "name": "Body Rune (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-126a/full-desktop.jpg",
+    "text": "Riftbound. Body Rune (alt). Rarity: Common. Color: Orange. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 91,
-    "name": "Miss Fortune, Captain (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-162a/full-desktop.jpg",
-    "text": "Riftbound. Miss Fortune, Captain (alt). Rarity: Epic. Color: Orange. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Ganking I can move from battlefield to battlefield.\n The first time I move each turn, you may ready something else that's exhausted.",
+    "card_id": "OGN-128",
+    "name": "Challenge",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-128/full-desktop.jpg",
+    "text": "Riftbound. Challenge. Rarity: Common. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Choose a friendly unit and an enemy unit. They deal damage equal to their Mights to each other.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 92,
-    "name": "Seal of Strength",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-163/full-desktop.jpg",
-    "text": "Riftbound. Seal of Strength. Rarity: Epic. Color: Orange. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-132",
+    "name": "First Mate",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-132/full-desktop.jpg",
+    "text": "Riftbound. First Mate. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: Pirate. How to play this card: When you play me, ready another unit.",
+    "howToPlay": "When you play me, ready another unit.",
     "colors": [
       "Orange"
     ],
-    "colorString": "Orange"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Pirate"
+    ]
   },
   {
     "id": 93,
-    "name": "Cemetery Attendant",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-165/full-desktop.jpg",
-    "text": "Riftbound. Cemetery Attendant. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: Dog. How to play this card: When you play me, return a unit from your trash to your hand.",
+    "card_id": "OGN-134",
+    "name": "Mobilize",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-134/full-desktop.jpg",
+    "text": "Riftbound. Mobilize. Rarity: Common. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Channel 1 rune exhausted. If you can't, draw 1.",
+    "howToPlay": "Channel 1 rune exhausted. If you can't, draw 1.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 94,
-    "name": "Chaos Rune",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-166/full-desktop.jpg",
-    "text": "Riftbound. Chaos Rune. Rarity: Common. Color: Purple. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-136",
+    "name": "Pit Rookie",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-136/full-desktop.jpg",
+    "text": "Riftbound. Pit Rookie. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, buff another friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
+    "howToPlay": "When you play me, buff another friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 95,
-    "name": "Chaos Rune (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-166a/full-desktop.jpg",
-    "text": "Riftbound. Chaos Rune (alt). Rarity: Common. Color: Purple. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-137",
+    "name": "Stormclaw Ursine",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-137/full-desktop.jpg",
+    "text": "Riftbound. Stormclaw Ursine. Rarity: Common. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Tank I must be assigned combat damage first.\n When you play me, channel 1 rune exhausted.",
+    "howToPlay": "Tank I must be assigned combat damage first.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 96,
-    "name": "Gust",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-169/full-desktop.jpg",
-    "text": "Riftbound. Gust. Rarity: Common. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Return a unit at a battlefield with 3 S or less to its owner's hand.",
+    "card_id": "OGN-138",
+    "name": "Catalyst of Aeons",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-138/full-desktop.jpg",
+    "text": "Riftbound. Catalyst of Aeons. Rarity: Uncommon. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Channel 2 runes exhausted. If you couldn't channel 2 runes this way, draw 1.",
+    "howToPlay": "Channel 2 runes exhausted. If you couldn't channel 2 runes this way, draw 1.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 97,
-    "name": "Rebuke",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-172/full-desktop.jpg",
-    "text": "Riftbound. Rebuke. Rarity: Common. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Return a unit at a battlefield to its owner's hand.",
+    "card_id": "OGN-139",
+    "name": "Cithria of Cloudfield",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-139/full-desktop.jpg",
+    "text": "Riftbound. Cithria of Cloudfield. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: Elite. How to play this card: When you play another unit, buff me. If I don't have a buff, I get a +1 S buff.",
+    "howToPlay": "When you play another unit, buff me. If I don't have a buff, I get a +1 S buff.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Elite"
+    ]
   },
   {
     "id": 98,
-    "name": "Stealthy Pursuer",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-177/full-desktop.jpg",
-    "text": "Riftbound. Stealthy Pursuer. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: When a friendly unit moves from my location, I may be moved with it.",
+    "card_id": "OGN-140",
+    "name": "Herald of Scales",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-140/full-desktop.jpg",
+    "text": "Riftbound. Herald of Scales. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Your Dragons' Energy costs are reduced by 2, to a minimum of 1.",
+    "howToPlay": "Your Dragons' Energy costs are reduced by 2, to a minimum of 1.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 99,
-    "name": "Undercover Agent",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-178/full-desktop.jpg",
-    "text": "Riftbound. Undercover Agent. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Discard 2, then draw 2. When I die, get the effect.",
+    "card_id": "OGN-147",
+    "name": "Wildclaw Shaman",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-147/full-desktop.jpg",
+    "text": "Riftbound. Wildclaw Shaman. Rarity: Uncommon. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, you may spend a buff to buff me and ready me. If I don't have a buff, I get a +1 S buff.",
+    "howToPlay": "When you play me, you may spend a buff to buff me and ready me. If I don't have a buff, I get a +1 S buff.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 100,
-    "name": "Acceptable Losses",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-179/full-desktop.jpg",
-    "text": "Riftbound. Acceptable Losses. Rarity: Uncommon. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Each player kills one of their gear.",
+    "card_id": "OGN-148",
+    "name": "Anivia, Primal",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-148/full-desktop.jpg",
+    "text": "Riftbound. Anivia, Primal. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Anivia,Bird. How to play this card: When I attack, deal 3 to all enemy units here.",
+    "howToPlay": "When I attack, deal 3 to all enemy units here.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Anivia",
+      "Bird"
+    ]
   },
   {
     "id": 101,
-    "name": "Pack of Wonders",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-181/full-desktop.jpg",
-    "text": "Riftbound. Pack of Wonders. Rarity: Uncommon. Color: Purple. Type: Gear. Super: None. Tags: None. How to play this card: T: Return another friendly gear, unit, or Hidden card to its owner's hand.",
+    "card_id": "OGN-149",
+    "name": "Carnivorous Snapvine",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-149/full-desktop.jpg",
+    "text": "Riftbound. Carnivorous Snapvine. Rarity: Rare. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, choose an enemy unit at a battlefield. We deal damage equal to our Mights to each other.",
+    "howToPlay": "When you play me, choose an enemy unit at a battlefield. We deal damage equal to our Mights to each other.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 102,
-    "name": "Traveling Merchant",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-185/full-desktop.jpg",
-    "text": "Riftbound. Traveling Merchant. Rarity: Uncommon. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: When I move, discard 1, then draw 1.",
+    "card_id": "OGN-152",
+    "name": "Mistfall",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-152/full-desktop.jpg",
+    "text": "Riftbound. Mistfall. Rarity: Rare. Color: Orange. Type: Gear. Super: None. Tags: None. How to play this card: When you buff a friendly unit, you may pay C and exhaust this to ready it.",
+    "howToPlay": "When you buff a friendly unit, you may pay C and exhaust this to ready it.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 103,
-    "name": "Whirlwind",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-187/full-desktop.jpg",
-    "text": "Riftbound. Whirlwind. Rarity: Uncommon. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Starting with the next player, each player may return a unit to its owner's hand.",
+    "card_id": "OGN-154",
+    "name": "Primal Strength",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-154/full-desktop.jpg",
+    "text": "Riftbound. Primal Strength. Rarity: Rare. Color: Orange. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Give a unit +7 S this turn.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 104,
-    "name": "Kayn, Unleashed",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-189/full-desktop.jpg",
-    "text": "Riftbound. Kayn, Unleashed. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Kayn. How to play this card: Ganking I can move from battlefield to battlefield.\n If I have moved twice this turn, I don't take damage.",
+    "card_id": "OGN-155",
+    "name": "Qiyana, Victorious",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-155/full-desktop.jpg",
+    "text": "Riftbound. Qiyana, Victorious. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Qiyana. How to play this card: Deflect Opponents must pay A to choose me with a spell or ability.\n When I conquer, draw 1 or channel 1 rune exhausted.",
+    "howToPlay": "Deflect Opponents must pay A to choose me with a spell or ability.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Qiyana"
+    ]
   },
   {
     "id": 105,
-    "name": "Maddened Marauder",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-191/full-desktop.jpg",
-    "text": "Riftbound. Maddened Marauder. Rarity: Rare. Color: Purple. Type: Unit. Super: None. Tags: Pirate. How to play this card: Tank I must be assigned combat damage first.\n When you play me, move a unit from a battlefield to its base.",
+    "card_id": "OGN-157",
+    "name": "Udyr, Wildman",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-157/full-desktop.jpg",
+    "text": "Riftbound. Udyr, Wildman. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Udyr. How to play this card: Spend my buff: Choose one you've not chosen this turn:\n * Deal 2 to a unit at a battlefield.\n * Stun a unit at a battlefield.\n * Ready me.\n * Give me Ganking this turn.",
+    "howToPlay": "Spend my buff: Choose one you've not chosen this turn:",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Udyr"
+    ]
   },
   {
     "id": 106,
-    "name": "Miss Fortune, Buccaneer",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-193/full-desktop.jpg",
-    "text": "Riftbound. Miss Fortune, Buccaneer. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: You may play me to an open battlefield. \n Friendly units may be played to open battlefields.",
+    "card_id": "OGN-158",
+    "name": "Volibear, Imposing",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-158/full-desktop.jpg",
+    "text": "Riftbound. Volibear, Imposing. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Shield 3 +3 S while I'm a defender.\n Tank I must be assigned combat damage first.\n When an opponent moves to a battlefield other than mine, draw 1. Bases are not battlefield.",
+    "howToPlay": "Shield 3 +3 S while I'm a defender.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
     "id": 107,
-    "name": "Miss Fortune, Buccaneer (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-193a/full-desktop.jpg",
-    "text": "Riftbound. Miss Fortune, Buccaneer (alt). Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: You may play me to an open battlefield. \n Friendly units may be played to open battlefields.",
+    "card_id": "OGN-158a",
+    "name": "Volibear, Imposing (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-158a/full-desktop.jpg",
+    "text": "Riftbound. Volibear, Imposing (alt). Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Volibear. How to play this card: Shield 3 +3 S while I'm a defender.\n Tank I must be assigned combat damage first.\n When an opponent moves to a battlefield other than mine, draw 1. Bases are not battlefield.",
+    "howToPlay": "Shield 3 +3 S while I'm a defender.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
     "id": 108,
-    "name": "Teemo, Scout",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-197/full-desktop.jpg",
-    "text": "Riftbound. Teemo, Scout. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give me +3 S this turn.",
+    "card_id": "OGN-159",
+    "name": "Warwick, Hunter",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-159/full-desktop.jpg",
+    "text": "Riftbound. Warwick, Hunter. Rarity: Rare. Color: Orange. Type: Unit. Super: Champion. Tags: Warwick,Dog. How to play this card: I enter ready.\n When I attack, kill all damaged enemy units here.",
+    "howToPlay": "I enter ready.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Warwick",
+      "Dog"
+    ]
   },
   {
     "id": 109,
-    "name": "Teemo, Scout (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-197a/full-desktop.jpg",
-    "text": "Riftbound. Teemo, Scout (alt). Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give me +3 S this turn.",
+    "card_id": "OGN-161",
+    "name": "Deadbloom Predator",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-161/full-desktop.jpg",
+    "text": "Riftbound. Deadbloom Predator. Rarity: Epic. Color: Orange. Type: Unit. Super: None. Tags: None. How to play this card: Deflect Opponents must pay A to choose me with a spell or ability.\n You may play me to an occupied enemy battlefield.",
+    "howToPlay": "Deflect Opponents must pay A to choose me with a spell or ability.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 110,
-    "name": "Jinx, Rebel",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-202/full-desktop.jpg",
-    "text": "Riftbound. Jinx, Rebel. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: When you discard one or more cards, ready me and give me +1 S this turn.",
+    "card_id": "OGN-162",
+    "name": "Miss Fortune, Captain",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-162/full-desktop.jpg",
+    "text": "Riftbound. Miss Fortune, Captain. Rarity: Epic. Color: Orange. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Ganking I can move from battlefield to battlefield.\n The first time I move each turn, you may ready something else that's exhausted.",
+    "howToPlay": "Accelerate You may pay 1C as an additional cost to have me enter ready.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Miss Fortune",
+      "Pirate"
+    ]
   },
   {
     "id": 111,
-    "name": "Jinx, Rebel",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-202a/full-desktop.jpg",
-    "text": "Riftbound. Jinx, Rebel. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: When you discard one or more cards, ready me and give me +1 S this turn.",
+    "card_id": "OGN-162a",
+    "name": "Miss Fortune, Captain (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-162a/full-desktop.jpg",
+    "text": "Riftbound. Miss Fortune, Captain (alt). Rarity: Epic. Color: Orange. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: Accelerate You may pay 1C as an additional cost to have me enter ready.\n Ganking I can move from battlefield to battlefield.\n The first time I move each turn, you may ready something else that's exhausted.",
+    "howToPlay": "Accelerate You may pay 1C as an additional cost to have me enter ready.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Miss Fortune",
+      "Pirate"
+    ]
   },
   {
     "id": 112,
-    "name": "Possession",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-203/full-desktop.jpg",
-    "text": "Riftbound. Possession. Rarity: Epic. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Choose an enemy unit at a battlefield. Take control of it and recall it. Send it to your base. This isn't a move.",
+    "card_id": "OGN-163",
+    "name": "Seal of Strength",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-163/full-desktop.jpg",
+    "text": "Riftbound. Seal of Strength. Rarity: Epic. Color: Orange. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Purple"
+      "Orange"
     ],
-    "colorString": "Purple"
+    "colorString": "Orange",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 113,
-    "name": "Seal of Discord",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-204/full-desktop.jpg",
-    "text": "Riftbound. Seal of Discord. Rarity: Epic. Color: Purple. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-165",
+    "name": "Cemetery Attendant",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-165/full-desktop.jpg",
+    "text": "Riftbound. Cemetery Attendant. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: Dog. How to play this card: When you play me, return a unit from your trash to your hand.",
+    "howToPlay": "When you play me, return a unit from your trash to your hand.",
     "colors": [
       "Purple"
     ],
-    "colorString": "Purple"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Dog"
+    ]
   },
   {
     "id": 114,
-    "name": "Cruel Patron",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-208/full-desktop.jpg",
-    "text": "Riftbound. Cruel Patron. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: As an additional cost to play me, kill a friendly unit.",
+    "card_id": "OGN-166",
+    "name": "Chaos Rune",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-166/full-desktop.jpg",
+    "text": "Riftbound. Chaos Rune. Rarity: Common. Color: Purple. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 115,
-    "name": "Cull the Weak",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-209/full-desktop.jpg",
-    "text": "Riftbound. Cull the Weak. Rarity: Common. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Each player kills one of their units.",
+    "card_id": "OGN-166a",
+    "name": "Chaos Rune (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-166a/full-desktop.jpg",
+    "text": "Riftbound. Chaos Rune (alt). Rarity: Common. Color: Purple. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
   },
   {
     "id": 116,
-    "name": "Faithful Manufactor",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-211/full-desktop.jpg",
-    "text": "Riftbound. Faithful Manufactor. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, play a 1 S Recruit unit token here.",
+    "card_id": "OGN-169",
+    "name": "Gust",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-169/full-desktop.jpg",
+    "text": "Riftbound. Gust. Rarity: Common. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Return a unit at a battlefield with 3 S or less to its owner's hand.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 117,
-    "name": "Hidden Blade",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-213/full-desktop.jpg",
-    "text": "Riftbound. Hidden Blade. Rarity: Common. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Kill a unit at a battlefield. Its controller draws 2.",
+    "card_id": "OGN-172",
+    "name": "Rebuke",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-172/full-desktop.jpg",
+    "text": "Riftbound. Rebuke. Rarity: Common. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Return a unit at a battlefield to its owner's hand.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 118,
-    "name": "Order Rune",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-214/full-desktop.jpg",
-    "text": "Riftbound. Order Rune. Rarity: Common. Color: Yellow. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-177",
+    "name": "Stealthy Pursuer",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-177/full-desktop.jpg",
+    "text": "Riftbound. Stealthy Pursuer. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: When a friendly unit moves from my location, I may be moved with it.",
+    "howToPlay": "When a friendly unit moves from my location, I may be moved with it.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 119,
-    "name": "Order Rune (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-214a/full-desktop.jpg",
-    "text": "Riftbound. Order Rune (alt). Rarity: Common. Color: Yellow. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "card_id": "OGN-178",
+    "name": "Undercover Agent",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-178/full-desktop.jpg",
+    "text": "Riftbound. Undercover Agent. Rarity: Common. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Discard 2, then draw 2. When I die, get the effect.",
+    "howToPlay": "Deathknell: Discard 2, then draw 2. When I die, get the effect.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 120,
-    "name": "Soaring Scout",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-216/full-desktop.jpg",
-    "text": "Riftbound. Soaring Scout. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: Bird. How to play this card: Deathknell: Channel 1 rune exhausted. When I die, get the effect.",
+    "card_id": "OGN-179",
+    "name": "Acceptable Losses",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-179/full-desktop.jpg",
+    "text": "Riftbound. Acceptable Losses. Rarity: Uncommon. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Each player kills one of their gear.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 121,
-    "name": "Vanguard Captain",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-218/full-desktop.jpg",
-    "text": "Riftbound. Vanguard Captain. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: Elite. How to play this card: Legion: When you play me, play two 1 S Recruit unit tokens here. Get the effect if you've played another card this turn.",
+    "card_id": "OGN-181",
+    "name": "Pack of Wonders",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-181/full-desktop.jpg",
+    "text": "Riftbound. Pack of Wonders. Rarity: Uncommon. Color: Purple. Type: Gear. Super: None. Tags: None. How to play this card: T: Return another friendly gear, unit, or Hidden card to its owner's hand.",
+    "howToPlay": "T: Return another friendly gear, unit, or Hidden card to its owner's hand.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 122,
-    "name": "Solari Chief",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-225/full-desktop.jpg",
-    "text": "Riftbound. Solari Chief. Rarity: Uncommon. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, choose an enemy unit. If it is stunned, kill it. Otherwise, stun it. It doesn't deal combat damage this turn.",
+    "card_id": "OGN-185",
+    "name": "Traveling Merchant",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-185/full-desktop.jpg",
+    "text": "Riftbound. Traveling Merchant. Rarity: Uncommon. Color: Purple. Type: Unit. Super: None. Tags: None. How to play this card: When I move, discard 1, then draw 1.",
+    "howToPlay": "When I move, discard 1, then draw 1.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 123,
-    "name": "Grand Strategem",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-233/full-desktop.jpg",
-    "text": "Riftbound. Grand Strategem. Rarity: Rare. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Give friendly units +5 S this turn.",
+    "card_id": "OGN-187",
+    "name": "Whirlwind",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-187/full-desktop.jpg",
+    "text": "Riftbound. Whirlwind. Rarity: Uncommon. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Starting with the next player, each player may return a unit to its owner's hand.",
+    "howToPlay": "Starting with the next player, each player may return a unit to its owner's hand.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 124,
-    "name": "Harnessed Dragon",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-234/full-desktop.jpg",
-    "text": "Riftbound. Harnessed Dragon. Rarity: Rare. Color: Yellow. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, kill an enemy unit.",
+    "card_id": "OGN-189",
+    "name": "Kayn, Unleashed",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-189/full-desktop.jpg",
+    "text": "Riftbound. Kayn, Unleashed. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Kayn. How to play this card: Ganking I can move from battlefield to battlefield.\n If I have moved twice this turn, I don't take damage.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Kayn"
+    ]
   },
   {
     "id": 125,
-    "name": "Leona, Determined",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-238/full-desktop.jpg",
-    "text": "Riftbound. Leona, Determined. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Leona. How to play this card: Shield +1 S while I'm a defender.\n When I attack, stun an enemy unit here. It doesn't deal combat damage this turn.",
+    "card_id": "OGN-190",
+    "name": "Kog'Maw, Caustic",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-190/full-desktop.jpg",
+    "text": "Riftbound. Kog'Maw, Caustic. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Kog'Maw. How to play this card: Deathknell: Deal 4 to all units at my battlefield. When I die, get the effect.",
+    "howToPlay": "Deathknell: Deal 4 to all units at my battlefield. When I die, get the effect.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Kog'Maw"
+    ]
   },
   {
     "id": 126,
-    "name": "Leona, Determined (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-238a/full-desktop.jpg",
-    "text": "Riftbound. Leona, Determined (alt). Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Leona. How to play this card: Shield +1 S while I'm a defender.\n When I attack, stun an enemy unit here. It doesn't deal combat damage this turn.",
+    "card_id": "OGN-191",
+    "name": "Maddened Marauder",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-191/full-desktop.jpg",
+    "text": "Riftbound. Maddened Marauder. Rarity: Rare. Color: Purple. Type: Unit. Super: None. Tags: Pirate. How to play this card: Tank I must be assigned combat damage first.\n When you play me, move a unit from a battlefield to its base.",
+    "howToPlay": "Tank I must be assigned combat damage first.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Pirate"
+    ]
   },
   {
     "id": 127,
-    "name": "Machine Evangel",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-239/full-desktop.jpg",
-    "text": "Riftbound. Machine Evangel. Rarity: Rare. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Play three 1 S Recruit unit tokens into your base. When I die, get the effect.",
+    "card_id": "OGN-193",
+    "name": "Miss Fortune, Buccaneer",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-193/full-desktop.jpg",
+    "text": "Riftbound. Miss Fortune, Buccaneer. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: You may play me to an open battlefield. \n Friendly units may be played to open battlefields.",
+    "howToPlay": "You may play me to an open battlefield.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Miss Fortune",
+      "Pirate"
+    ]
   },
   {
     "id": 128,
-    "name": "Sett, Kingpin",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-240/full-desktop.jpg",
-    "text": "Riftbound. Sett, Kingpin. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Sett. How to play this card: Tank I must be assigned combat damage first.\n I get +1 S for each buffed friendly unit at my battlefield.",
+    "card_id": "OGN-193a",
+    "name": "Miss Fortune, Buccaneer (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-193a/full-desktop.jpg",
+    "text": "Riftbound. Miss Fortune, Buccaneer (alt). Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Miss Fortune,Pirate. How to play this card: You may play me to an open battlefield. \n Friendly units may be played to open battlefields.",
+    "howToPlay": "You may play me to an open battlefield.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Miss Fortune",
+      "Pirate"
+    ]
   },
   {
     "id": 129,
-    "name": "Sett, Kingpin (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-240a/full-desktop.jpg",
-    "text": "Riftbound. Sett, Kingpin (alt). Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Sett. How to play this card: Tank I must be assigned combat damage first.\n I get +1 S for each buffed friendly unit at my battlefield.",
+    "card_id": "OGN-194",
+    "name": "Nocturne, Horrifying",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-194/full-desktop.jpg",
+    "text": "Riftbound. Nocturne, Horrifying. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Nocturne. How to play this card: Ganking I can move from battlefield to battlefield.\n When you look at cards from the top of your deck and don't draw them and see me, you may play me for A.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Nocturne"
+    ]
   },
   {
     "id": 130,
-    "name": "Shen, Kinkou",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-241/full-desktop.jpg",
-    "text": "Riftbound. Shen, Kinkou. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Shen. How to play this card: Reaction Play any time, even before spells and abilities resolve, including to a battlefield you control.\n Shield 2 +2 S while I'm a defender.\n Tank I must be assigned combat damage first.",
+    "card_id": "OGN-197",
+    "name": "Teemo, Scout",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-197/full-desktop.jpg",
+    "text": "Riftbound. Teemo, Scout. Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give me +3 S this turn.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Teemo",
+      "Yordle"
+    ]
   },
   {
     "id": 131,
-    "name": "Darius, Executioner",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-243/full-desktop.jpg",
-    "text": "Riftbound. Darius, Executioner. Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: Legion: When you play me, ready me. Get the effect if you've played another card this turn\n Other friendly units have +1 S here.",
+    "card_id": "OGN-197a",
+    "name": "Teemo, Scout (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-197a/full-desktop.jpg",
+    "text": "Riftbound. Teemo, Scout (alt). Rarity: Rare. Color: Purple. Type: Unit. Super: Champion. Tags: Teemo,Yordle. How to play this card: Hidden Hide now for A to react with later for 0.\n When you play me, give me +3 S this turn.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Teemo",
+      "Yordle"
+    ]
   },
   {
     "id": 132,
-    "name": "Darius, Executioner (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-243a/full-desktop.jpg",
-    "text": "Riftbound. Darius, Executioner (alt). Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: Legion: When you play me, ready me. Get the effect if you've played another card this turn\n Other friendly units have +1 S here.",
+    "card_id": "OGN-201",
+    "name": "Invert Timelines",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-201/full-desktop.jpg",
+    "text": "Riftbound. Invert Timelines. Rarity: Epic. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Each player discards their hand, then draws 4.",
+    "howToPlay": "Each player discards their hand, then draws 4.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 133,
-    "name": "Seal of Unity",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-245/full-desktop.jpg",
-    "text": "Riftbound. Seal of Unity. Rarity: Epic. Color: Yellow. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-202",
+    "name": "Jinx, Rebel",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-202/full-desktop.jpg",
+    "text": "Riftbound. Jinx, Rebel. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: When you discard one or more cards, ready me and give me +1 S this turn.",
+    "howToPlay": "When you discard one or more cards, ready me and give me +1 S this turn.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Jinx"
+    ]
   },
   {
     "id": 134,
-    "name": "Viktor, Leader",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-246/full-desktop.jpg",
-    "text": "Riftbound. Viktor, Leader. Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "card_id": "OGN-202a",
+    "name": "Jinx, Rebel",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-202a/full-desktop.jpg",
+    "text": "Riftbound. Jinx, Rebel. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Jinx. How to play this card: When you discard one or more cards, ready me and give me +1 S this turn.",
+    "howToPlay": "When you discard one or more cards, ready me and give me +1 S this turn.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Jinx"
+    ]
   },
   {
     "id": 135,
-    "name": "Viktor, Leader (alt)",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-246a/full-desktop.jpg",
-    "text": "Riftbound. Viktor, Leader (alt). Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "card_id": "OGN-203",
+    "name": "Possession",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-203/full-desktop.jpg",
+    "text": "Riftbound. Possession. Rarity: Epic. Color: Purple. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Choose an enemy unit at a battlefield. Take control of it and recall it. Send it to your base. This isn't a move.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
-    "colorString": "Yellow"
+    "colorString": "Purple",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 136,
-    "name": "Daughter of the Void",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-247/full-desktop.jpg",
-    "text": "Riftbound. Daughter of the Void. Rarity: Rare. Color: Red,Blue. Type: Legend. Super: Champion. Tags: Kai'Sa. How to play this card: T: Reaction: Add C. Use only to play spells. Abilities that add resources can't be reacted to.",
+    "card_id": "OGN-204",
+    "name": "Seal of Discord",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-204/full-desktop.jpg",
+    "text": "Riftbound. Seal of Discord. Rarity: Epic. Color: Purple. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
     "colors": [
-      "Red",
-      "Blue"
+      "Purple"
     ],
-    "colorString": "Red,Blue"
+    "colorString": "Purple",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 137,
-    "name": "Icathian Rain",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-248/full-desktop.jpg",
-    "text": "Riftbound. Icathian Rain. Rarity: Epic. Color: Red,Blue. Type: Spell. Super: Signature. Tags: Kai'Sa. How to play this card: Do this 6 times:\n Deal 2 to a unit. You can choose different units.",
+    "card_id": "OGN-205",
+    "name": "Yasuo, Windrider",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-205/full-desktop.jpg",
+    "text": "Riftbound. Yasuo, Windrider. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: Ganking I can move from battlefield to battlefield.\n The third time I move in a turn, you score 1 point.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Red",
-      "Blue"
+      "Purple"
     ],
-    "colorString": "Red,Blue"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
     "id": 138,
-    "name": "Relentless Storm",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-249/full-desktop.jpg",
-    "text": "Riftbound. Relentless Storm. Rarity: Rare. Color: Red,Orange. Type: Legend. Super: Champion. Tags: Volibear. How to play this card: When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
+    "card_id": "OGN-205a",
+    "name": "Yasuo, Windrider",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-205a/full-desktop.jpg",
+    "text": "Riftbound. Yasuo, Windrider. Rarity: Epic. Color: Purple. Type: Unit. Super: Champion. Tags: Yasuo. How to play this card: Ganking I can move from battlefield to battlefield.\n The third time I move in a turn, you score 1 point.",
+    "howToPlay": "Ganking I can move from battlefield to battlefield.",
     "colors": [
-      "Red",
-      "Orange"
+      "Purple"
     ],
-    "colorString": "Red,Orange"
+    "colorString": "Purple",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
     "id": 139,
-    "name": "Stormbringer",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-250/full-desktop.jpg",
-    "text": "Riftbound. Stormbringer. Rarity: Epic. Color: Red,Orange. Type: Spell. Super: Signature. Tags: Volibear. How to play this card: Choose a friendly unit in your base. Deal damage equal to its Might to all enemy units at a battlefield, then move your unit there.",
+    "card_id": "OGN-207",
+    "name": "Call to Glory",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-207/full-desktop.jpg",
+    "text": "Riftbound. Call to Glory. Rarity: Common. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n As you play this, you may spend a buff as an additional cost. If you do, ignore this spell's cost.\n Give a unit +3 S this turn.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
-      "Red",
-      "Orange"
+      "Yellow"
     ],
-    "colorString": "Red,Orange"
+    "colorString": "Yellow",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 140,
-    "name": "Loose Cannon",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-251/full-desktop.jpg",
-    "text": "Riftbound. Loose Cannon. Rarity: Rare. Color: Red,Purple. Type: Legend. Super: Champion. Tags: Jinx. How to play this card: At start of your Beginning Phase, draw 1 if you have one or fewer cards in your hand.",
+    "card_id": "OGN-208",
+    "name": "Cruel Patron",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-208/full-desktop.jpg",
+    "text": "Riftbound. Cruel Patron. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: As an additional cost to play me, kill a friendly unit.",
+    "howToPlay": "As an additional cost to play me, kill a friendly unit.",
     "colors": [
-      "Red",
-      "Purple"
+      "Yellow"
     ],
-    "colorString": "Red,Purple"
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 141,
-    "name": "Super Mega Death Rocket!",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-252/full-desktop.jpg",
-    "text": "Riftbound. Super Mega Death Rocket!. Rarity: Epic. Color: Red,Purple. Type: Spell. Super: Signature. Tags: Jinx. How to play this card: Deal 5 to a unit.\n When you conquer, you may discard 1 to return this from your trash to your hand.",
+    "card_id": "OGN-209",
+    "name": "Cull the Weak",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-209/full-desktop.jpg",
+    "text": "Riftbound. Cull the Weak. Rarity: Common. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Each player kills one of their units.",
+    "howToPlay": "Each player kills one of their units.",
     "colors": [
-      "Red",
-      "Purple"
+      "Yellow"
     ],
-    "colorString": "Red,Purple"
+    "colorString": "Yellow",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 142,
-    "name": "Hand of Noxus",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-253/full-desktop.jpg",
-    "text": "Riftbound. Hand of Noxus. Rarity: Rare. Color: Red,Yellow. Type: Legend. Super: Champion. Tags: Darius. How to play this card: T: Reaction, Legion: Add 1. Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.",
+    "card_id": "OGN-211",
+    "name": "Faithful Manufactor",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-211/full-desktop.jpg",
+    "text": "Riftbound. Faithful Manufactor. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, play a 1 S Recruit unit token here.",
+    "howToPlay": "When you play me, play a 1 S Recruit unit token here.",
     "colors": [
-      "Red",
       "Yellow"
     ],
-    "colorString": "Red,Yellow"
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 143,
-    "name": "Noxian Guillotine",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-254/full-desktop.jpg",
-    "text": "Riftbound. Noxian Guillotine. Rarity: Epic. Color: Red,Yellow. Type: Spell. Super: Signature. Tags: Darius. How to play this card: Action Play on your turn or in showdowns.\n Choose a unit. Kill it the next time it takes damage this turn.\n Legion: Kill it now instead. Get the effect if you've played another card this turn.",
+    "card_id": "OGN-212",
+    "name": "Forge of the Future",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-212/full-desktop.jpg",
+    "text": "Riftbound. Forge of the Future. Rarity: Common. Color: Yellow. Type: Gear. Super: None. Tags: None. How to play this card: When you play this, play a 1 S Recruit unit token at your base.\n Kill this: Recycle up to 4 cards from trashes.",
+    "howToPlay": "When you play this, play a 1 S Recruit unit token at your base.",
     "colors": [
-      "Red",
       "Yellow"
     ],
-    "colorString": "Red,Yellow"
+    "colorString": "Yellow",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 144,
-    "name": "Nine-Tailed Fox",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-255/full-desktop.jpg",
-    "text": "Riftbound. Nine-Tailed Fox. Rarity: Rare. Color: Green,Blue. Type: Legend. Super: Champion. Tags: Ahri. How to play this card: When an enemy unit attacks a battlefield you control, give it -1 S this turn, to a minimum of 1 S.",
+    "card_id": "OGN-213",
+    "name": "Hidden Blade",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-213/full-desktop.jpg",
+    "text": "Riftbound. Hidden Blade. Rarity: Common. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Kill a unit at a battlefield. Its controller draws 2.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
     "colors": [
-      "Green",
-      "Blue"
+      "Yellow"
     ],
-    "colorString": "Green,Blue"
+    "colorString": "Yellow",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
   },
   {
     "id": 145,
-    "name": "Fox-Fire",
-    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-256/full-desktop.jpg",
-    "text": "Riftbound. Fox-Fire. Rarity: Epic. Color: Green,Blue. Type: Spell. Super: Signature. Tags: Ahri. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Kill any number of units at a battlefield with total Might 4 or less.",
+    "card_id": "OGN-214",
+    "name": "Order Rune",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-214/full-desktop.jpg",
+    "text": "Riftbound. Order Rune. Rarity: Common. Color: Yellow. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
+  },
+  {
+    "id": 146,
+    "card_id": "OGN-214a",
+    "name": "Order Rune (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-214a/full-desktop.jpg",
+    "text": "Riftbound. Order Rune (alt). Rarity: Common. Color: Yellow. Type: Rune. Super: Basic. Tags: None. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Rune",
+    "super": "Basic",
+    "tags": []
+  },
+  {
+    "id": 147,
+    "card_id": "OGN-216",
+    "name": "Soaring Scout",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-216/full-desktop.jpg",
+    "text": "Riftbound. Soaring Scout. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: Bird. How to play this card: Deathknell: Channel 1 rune exhausted. When I die, get the effect.",
+    "howToPlay": "Deathknell: Channel 1 rune exhausted. When I die, get the effect.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Bird"
+    ]
+  },
+  {
+    "id": 148,
+    "card_id": "OGN-217",
+    "name": "Trifarian Gloryseeker",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-217/full-desktop.jpg",
+    "text": "Riftbound. Trifarian Gloryseeker. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: Trifarian. How to play this card: Legion: When you play me, buff me. If I don't have a buff, I get a +1 S buff. Get the effect if you've played another card this turn.",
+    "howToPlay": "Legion: When you play me, buff me. If I don't have a buff, I get a +1 S buff. Get the effect if you've played another card this turn.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Trifarian"
+    ]
+  },
+  {
+    "id": 149,
+    "card_id": "OGN-218",
+    "name": "Vanguard Captain",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-218/full-desktop.jpg",
+    "text": "Riftbound. Vanguard Captain. Rarity: Common. Color: Yellow. Type: Unit. Super: None. Tags: Elite. How to play this card: Legion: When you play me, play two 1 S Recruit unit tokens here. Get the effect if you've played another card this turn.",
+    "howToPlay": "Legion: When you play me, play two 1 S Recruit unit tokens here. Get the effect if you've played another card this turn.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Elite"
+    ]
+  },
+  {
+    "id": 150,
+    "card_id": "OGN-225",
+    "name": "Solari Chief",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-225/full-desktop.jpg",
+    "text": "Riftbound. Solari Chief. Rarity: Uncommon. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: When you play me, choose an enemy unit. If it is stunned, kill it. Otherwise, stun it. It doesn't deal combat damage this turn.",
+    "howToPlay": "When you play me, choose an enemy unit. If it is stunned, kill it. Otherwise, stun it. It doesn't deal combat damage this turn.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 151,
+    "card_id": "OGN-232",
+    "name": "Fiora, Victorious",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-232/full-desktop.jpg",
+    "text": "Riftbound. Fiora, Victorious. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Fiora. How to play this card: While I'm Mighty, I have Deflect, Ganking, and Shield. I'm Mighty while I have 5+ S.",
+    "howToPlay": "While I'm Mighty, I have Deflect, Ganking, and Shield. I'm Mighty while I have 5+ S.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Fiora"
+    ]
+  },
+  {
+    "id": 152,
+    "card_id": "OGN-233",
+    "name": "Grand Strategem",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-233/full-desktop.jpg",
+    "text": "Riftbound. Grand Strategem. Rarity: Rare. Color: Yellow. Type: Spell. Super: None. Tags: None. How to play this card: Action Play on your turn or in showdowns.\n Give friendly units +5 S this turn.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Spell",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 153,
+    "card_id": "OGN-234",
+    "name": "Harnessed Dragon",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-234/full-desktop.jpg",
+    "text": "Riftbound. Harnessed Dragon. Rarity: Rare. Color: Yellow. Type: Unit. Super: None. Tags: Dragon. How to play this card: When you play me, kill an enemy unit.",
+    "howToPlay": "When you play me, kill an enemy unit.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 154,
+    "card_id": "OGN-235",
+    "name": "Karma, Channeler",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-235/full-desktop.jpg",
+    "text": "Riftbound. Karma, Channeler. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Karma. How to play this card: Vision When you play me, look at the top card of your Main Deck. You may recycle it.\n When you recycle one or more cards, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff. Runes aren't cards.",
+    "howToPlay": "Vision When you play me, look at the top card of your Main Deck. You may recycle it.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Karma"
+    ]
+  },
+  {
+    "id": 155,
+    "card_id": "OGN-238",
+    "name": "Leona, Determined",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-238/full-desktop.jpg",
+    "text": "Riftbound. Leona, Determined. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Leona. How to play this card: Shield +1 S while I'm a defender.\n When I attack, stun an enemy unit here. It doesn't deal combat damage this turn.",
+    "howToPlay": "Shield +1 S while I'm a defender.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Leona"
+    ]
+  },
+  {
+    "id": 156,
+    "card_id": "OGN-238a",
+    "name": "Leona, Determined (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-238a/full-desktop.jpg",
+    "text": "Riftbound. Leona, Determined (alt). Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Leona. How to play this card: Shield +1 S while I'm a defender.\n When I attack, stun an enemy unit here. It doesn't deal combat damage this turn.",
+    "howToPlay": "Shield +1 S while I'm a defender.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Leona"
+    ]
+  },
+  {
+    "id": 157,
+    "card_id": "OGN-239",
+    "name": "Machine Evangel",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-239/full-desktop.jpg",
+    "text": "Riftbound. Machine Evangel. Rarity: Rare. Color: Yellow. Type: Unit. Super: None. Tags: None. How to play this card: Deathknell: Play three 1 S Recruit unit tokens into your base. When I die, get the effect.",
+    "howToPlay": "Deathknell: Play three 1 S Recruit unit tokens into your base. When I die, get the effect.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 158,
+    "card_id": "OGN-240",
+    "name": "Sett, Kingpin",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-240/full-desktop.jpg",
+    "text": "Riftbound. Sett, Kingpin. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Sett. How to play this card: Tank I must be assigned combat damage first.\n I get +1 S for each buffed friendly unit at my battlefield.",
+    "howToPlay": "Tank I must be assigned combat damage first.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Sett"
+    ]
+  },
+  {
+    "id": 159,
+    "card_id": "OGN-240a",
+    "name": "Sett, Kingpin (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-240a/full-desktop.jpg",
+    "text": "Riftbound. Sett, Kingpin (alt). Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Sett. How to play this card: Tank I must be assigned combat damage first.\n I get +1 S for each buffed friendly unit at my battlefield.",
+    "howToPlay": "Tank I must be assigned combat damage first.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Sett"
+    ]
+  },
+  {
+    "id": 160,
+    "card_id": "OGN-241",
+    "name": "Shen, Kinkou",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-241/full-desktop.jpg",
+    "text": "Riftbound. Shen, Kinkou. Rarity: Rare. Color: Yellow. Type: Unit. Super: Champion. Tags: Shen. How to play this card: Reaction Play any time, even before spells and abilities resolve, including to a battlefield you control.\n Shield 2 +2 S while I'm a defender.\n Tank I must be assigned combat damage first.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve, including to a battlefield you control.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Shen"
+    ]
+  },
+  {
+    "id": 161,
+    "card_id": "OGN-243",
+    "name": "Darius, Executioner",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-243/full-desktop.jpg",
+    "text": "Riftbound. Darius, Executioner. Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: Legion: When you play me, ready me. Get the effect if you've played another card this turn\n Other friendly units have +1 S here.",
+    "howToPlay": "Legion: When you play me, ready me. Get the effect if you've played another card this turn",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Darius",
+      "Trifarian"
+    ]
+  },
+  {
+    "id": 162,
+    "card_id": "OGN-243a",
+    "name": "Darius, Executioner (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-243a/full-desktop.jpg",
+    "text": "Riftbound. Darius, Executioner (alt). Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Darius,Trifarian. How to play this card: Legion: When you play me, ready me. Get the effect if you've played another card this turn\n Other friendly units have +1 S here.",
+    "howToPlay": "Legion: When you play me, ready me. Get the effect if you've played another card this turn",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Darius",
+      "Trifarian"
+    ]
+  },
+  {
+    "id": 163,
+    "card_id": "OGN-245",
+    "name": "Seal of Unity",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-245/full-desktop.jpg",
+    "text": "Riftbound. Seal of Unity. Rarity: Epic. Color: Yellow. Type: Gear. Super: None. Tags: None. How to play this card: T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Abilities that add resources can't be reacted to.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Gear",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 164,
+    "card_id": "OGN-246",
+    "name": "Viktor, Leader",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-246/full-desktop.jpg",
+    "text": "Riftbound. Viktor, Leader. Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "howToPlay": "When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Viktor"
+    ]
+  },
+  {
+    "id": 165,
+    "card_id": "OGN-246a",
+    "name": "Viktor, Leader (alt)",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-246a/full-desktop.jpg",
+    "text": "Riftbound. Viktor, Leader (alt). Rarity: Epic. Color: Yellow. Type: Unit. Super: Champion. Tags: Viktor. How to play this card: When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "howToPlay": "When another non-Recruit unit you control dies, play a 1 S Recruit unit token into your base.",
+    "colors": [
+      "Yellow"
+    ],
+    "colorString": "Yellow",
+    "type": "Unit",
+    "super": "Champion",
+    "tags": [
+      "Viktor"
+    ]
+  },
+  {
+    "id": 166,
+    "card_id": "OGN-247",
+    "name": "Daughter of the Void",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-247/full-desktop.jpg",
+    "text": "Riftbound. Daughter of the Void. Rarity: Rare. Color: Red,Blue. Type: Legend. Super: Champion. Tags: Kai'Sa. How to play this card: T: Reaction: Add C. Use only to play spells. Abilities that add resources can't be reacted to.",
+    "howToPlay": "T: Reaction: Add C. Use only to play spells. Abilities that add resources can't be reacted to.",
+    "colors": [
+      "Red",
+      "Blue"
+    ],
+    "colorString": "Red,Blue",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Kai'Sa"
+    ]
+  },
+  {
+    "id": 167,
+    "card_id": "OGN-248",
+    "name": "Icathian Rain",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-248/full-desktop.jpg",
+    "text": "Riftbound. Icathian Rain. Rarity: Epic. Color: Red,Blue. Type: Spell. Super: Signature. Tags: Kai'Sa. How to play this card: Do this 6 times:\n Deal 2 to a unit. You can choose different units.",
+    "howToPlay": "Do this 6 times:",
+    "colors": [
+      "Red",
+      "Blue"
+    ],
+    "colorString": "Red,Blue",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Kai'Sa"
+    ]
+  },
+  {
+    "id": 168,
+    "card_id": "OGN-249",
+    "name": "Relentless Storm",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-249/full-desktop.jpg",
+    "text": "Riftbound. Relentless Storm. Rarity: Rare. Color: Red,Orange. Type: Legend. Super: Champion. Tags: Volibear. How to play this card: When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
+    "howToPlay": "When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
+    "colors": [
+      "Red",
+      "Orange"
+    ],
+    "colorString": "Red,Orange",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Volibear"
+    ]
+  },
+  {
+    "id": 169,
+    "card_id": "OGN-250",
+    "name": "Stormbringer",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-250/full-desktop.jpg",
+    "text": "Riftbound. Stormbringer. Rarity: Epic. Color: Red,Orange. Type: Spell. Super: Signature. Tags: Volibear. How to play this card: Choose a friendly unit in your base. Deal damage equal to its Might to all enemy units at a battlefield, then move your unit there.",
+    "howToPlay": "Choose a friendly unit in your base. Deal damage equal to its Might to all enemy units at a battlefield, then move your unit there.",
+    "colors": [
+      "Red",
+      "Orange"
+    ],
+    "colorString": "Red,Orange",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Volibear"
+    ]
+  },
+  {
+    "id": 170,
+    "card_id": "OGN-251",
+    "name": "Loose Cannon",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-251/full-desktop.jpg",
+    "text": "Riftbound. Loose Cannon. Rarity: Rare. Color: Red,Purple. Type: Legend. Super: Champion. Tags: Jinx. How to play this card: At start of your Beginning Phase, draw 1 if you have one or fewer cards in your hand.",
+    "howToPlay": "At start of your Beginning Phase, draw 1 if you have one or fewer cards in your hand.",
+    "colors": [
+      "Red",
+      "Purple"
+    ],
+    "colorString": "Red,Purple",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Jinx"
+    ]
+  },
+  {
+    "id": 171,
+    "card_id": "OGN-252",
+    "name": "Super Mega Death Rocket!",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-252/full-desktop.jpg",
+    "text": "Riftbound. Super Mega Death Rocket!. Rarity: Epic. Color: Red,Purple. Type: Spell. Super: Signature. Tags: Jinx. How to play this card: Deal 5 to a unit.\n When you conquer, you may discard 1 to return this from your trash to your hand.",
+    "howToPlay": "Deal 5 to a unit.",
+    "colors": [
+      "Red",
+      "Purple"
+    ],
+    "colorString": "Red,Purple",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Jinx"
+    ]
+  },
+  {
+    "id": 172,
+    "card_id": "OGN-253",
+    "name": "Hand of Noxus",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-253/full-desktop.jpg",
+    "text": "Riftbound. Hand of Noxus. Rarity: Rare. Color: Red,Yellow. Type: Legend. Super: Champion. Tags: Darius. How to play this card: T: Reaction, Legion: Add 1. Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.",
+    "howToPlay": "T: Reaction, Legion: Add 1. Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.",
+    "colors": [
+      "Red",
+      "Yellow"
+    ],
+    "colorString": "Red,Yellow",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Darius"
+    ]
+  },
+  {
+    "id": 173,
+    "card_id": "OGN-254",
+    "name": "Noxian Guillotine",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-254/full-desktop.jpg",
+    "text": "Riftbound. Noxian Guillotine. Rarity: Epic. Color: Red,Yellow. Type: Spell. Super: Signature. Tags: Darius. How to play this card: Action Play on your turn or in showdowns.\n Choose a unit. Kill it the next time it takes damage this turn.\n Legion: Kill it now instead. Get the effect if you've played another card this turn.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
+    "colors": [
+      "Red",
+      "Yellow"
+    ],
+    "colorString": "Red,Yellow",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Darius"
+    ]
+  },
+  {
+    "id": 174,
+    "card_id": "OGN-255",
+    "name": "Nine-Tailed Fox",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-255/full-desktop.jpg",
+    "text": "Riftbound. Nine-Tailed Fox. Rarity: Rare. Color: Green,Blue. Type: Legend. Super: Champion. Tags: Ahri. How to play this card: When an enemy unit attacks a battlefield you control, give it -1 S this turn, to a minimum of 1 S.",
+    "howToPlay": "When an enemy unit attacks a battlefield you control, give it -1 S this turn, to a minimum of 1 S.",
     "colors": [
       "Green",
       "Blue"
     ],
-    "colorString": "Green,Blue"
+    "colorString": "Green,Blue",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Ahri"
+    ]
   },
   {
-    "id": 146,
+    "id": 175,
+    "card_id": "OGN-256",
+    "name": "Fox-Fire",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-256/full-desktop.jpg",
+    "text": "Riftbound. Fox-Fire. Rarity: Epic. Color: Green,Blue. Type: Spell. Super: Signature. Tags: Ahri. How to play this card: Hidden Hide now for A to react with later for 0.\n Action Play on your turn or in showdowns.\n Kill any number of units at a battlefield with total Might 4 or less.",
+    "howToPlay": "Hidden Hide now for A to react with later for 0.",
+    "colors": [
+      "Green",
+      "Blue"
+    ],
+    "colorString": "Green,Blue",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Ahri"
+    ]
+  },
+  {
+    "id": 176,
+    "card_id": "OGN-257",
     "name": "Blind Monk",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-257/full-desktop.jpg",
     "text": "Riftbound. Blind Monk. Rarity: Rare. Color: Green,Orange. Type: Legend. Super: Champion. Tags: Lee Sin. How to play this card: 1, T: Buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
+    "howToPlay": "1, T: Buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
       "Green",
       "Orange"
     ],
-    "colorString": "Green,Orange"
+    "colorString": "Green,Orange",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Lee Sin"
+    ]
   },
   {
-    "id": 147,
+    "id": 177,
+    "card_id": "OGN-258",
     "name": "Dragon's Rage",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-258/full-desktop.jpg",
     "text": "Riftbound. Dragon's Rage. Rarity: Epic. Color: Green,Orange. Type: Spell. Super: Signature. Tags: Lee Sin. How to play this card: Move an enemy unit. Then choose another enemy unit at its destination. They deal damage equal to their Mights to each other.",
+    "howToPlay": "Move an enemy unit. Then choose another enemy unit at its destination. They deal damage equal to their Mights to each other.",
     "colors": [
       "Green",
       "Orange"
     ],
-    "colorString": "Green,Orange"
+    "colorString": "Green,Orange",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Lee Sin"
+    ]
   },
   {
-    "id": 148,
+    "id": 178,
+    "card_id": "OGN-259",
     "name": "Unforgiven",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-259/full-desktop.jpg",
     "text": "Riftbound. Unforgiven. Rarity: Rare. Color: Green,Purple. Type: Legend. Super: Champion. Tags: Yasuo. How to play this card: 2, T: Move a friendly unit to or from its base.",
+    "howToPlay": "2, T: Move a friendly unit to or from its base.",
     "colors": [
       "Green",
       "Purple"
     ],
-    "colorString": "Green,Purple"
+    "colorString": "Green,Purple",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
-    "id": 149,
+    "id": 179,
+    "card_id": "OGN-260",
     "name": "Last Breath",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-260/full-desktop.jpg",
     "text": "Riftbound. Last Breath. Rarity: Epic. Color: Green,Purple. Type: Spell. Super: Signature. Tags: Yasuo. How to play this card: Action Play on your turn or in showdowns.\n Ready a friendly unit. It deals damage equal to its Might to an enemy unit at a battlefield.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Green",
       "Purple"
     ],
-    "colorString": "Green,Purple"
+    "colorString": "Green,Purple",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
-    "id": 150,
+    "id": 180,
+    "card_id": "OGN-261",
     "name": "Radiant Dawn",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-261/full-desktop.jpg",
     "text": "Riftbound. Radiant Dawn. Rarity: Rare. Color: Green,Yellow. Type: Legend. Super: Champion. Tags: Leona. How to play this card: When you stun one or more enemy units, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
+    "howToPlay": "When you stun one or more enemy units, buff a friendly unit. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
       "Green",
       "Yellow"
     ],
-    "colorString": "Green,Yellow"
+    "colorString": "Green,Yellow",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Leona"
+    ]
   },
   {
-    "id": 151,
+    "id": 181,
+    "card_id": "OGN-262",
     "name": "Zenith Blade",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-262/full-desktop.jpg",
     "text": "Riftbound. Zenith Blade. Rarity: Epic. Color: Green,Yellow. Type: Spell. Super: Signature. Tags: Leona. How to play this card: Action Play on your turn or in showdowns.\n Stun an enemy unit at a battlefield. You may move a friendly unit to that enemy unit's battlefield. A stunned unit doesn't deal combat damage this turn.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Green",
       "Yellow"
     ],
-    "colorString": "Green,Yellow"
+    "colorString": "Green,Yellow",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Leona"
+    ]
   },
   {
-    "id": 152,
+    "id": 182,
+    "card_id": "OGN-263",
     "name": "Swift Scout",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-263/full-desktop.jpg",
     "text": "Riftbound. Swift Scout. Rarity: Rare. Color: Blue,Purple. Type: Legend. Super: Champion. Tags: Teemo. How to play this card: You may pay 1 to hide a card with Hidden instead of C.\n 1, T: Put a Teemo unit you own into your hand from your Champion Zone or the board.",
+    "howToPlay": "You may pay 1 to hide a card with Hidden instead of C.",
     "colors": [
       "Blue",
       "Purple"
     ],
-    "colorString": "Blue,Purple"
+    "colorString": "Blue,Purple",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Teemo"
+    ]
   },
   {
-    "id": 153,
+    "id": 183,
+    "card_id": "OGN-264",
     "name": "Guerilla Warfare",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-264/full-desktop.jpg",
     "text": "Riftbound. Guerilla Warfare. Rarity: Epic. Color: Blue,Purple. Type: Spell. Super: Signature. Tags: Teemo. How to play this card: Return up to two cards with Hidden from your trash to your hand. You can hide cards ignoring costs this turn.",
+    "howToPlay": "Return up to two cards with Hidden from your trash to your hand. You can hide cards ignoring costs this turn.",
     "colors": [
       "Blue",
       "Purple"
     ],
-    "colorString": "Blue,Purple"
+    "colorString": "Blue,Purple",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Teemo"
+    ]
   },
   {
-    "id": 154,
+    "id": 184,
+    "card_id": "OGN-265",
     "name": "Herald of the Arcane",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-265/full-desktop.jpg",
     "text": "Riftbound. Herald of the Arcane. Rarity: Rare. Color: Blue,Yellow. Type: Legend. Super: Champion. Tags: Viktor. How to play this card: 1, T: Play a 1 S Recruit unit token.",
+    "howToPlay": "1, T: Play a 1 S Recruit unit token.",
     "colors": [
       "Blue",
       "Yellow"
     ],
-    "colorString": "Blue,Yellow"
+    "colorString": "Blue,Yellow",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Viktor"
+    ]
   },
   {
-    "id": 155,
+    "id": 185,
+    "card_id": "OGN-266",
     "name": "Siphon Power",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-266/full-desktop.jpg",
     "text": "Riftbound. Siphon Power. Rarity: Epic. Color: Blue,Yellow. Type: Spell. Super: Signature. Tags: Viktor. How to play this card: Reaction Play any time, even before spells and abilities resolve.\n Choose a battlefield. Give friendly units there +1 S this turn and enemy units there -1 S this turn, to a minimum of 1 S.",
+    "howToPlay": "Reaction Play any time, even before spells and abilities resolve.",
     "colors": [
       "Blue",
       "Yellow"
     ],
-    "colorString": "Blue,Yellow"
+    "colorString": "Blue,Yellow",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Viktor"
+    ]
   },
   {
-    "id": 156,
+    "id": 186,
+    "card_id": "OGN-267",
     "name": "Bounty Hunter",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-267/full-desktop.jpg",
     "text": "Riftbound. Bounty Hunter. Rarity: Rare. Color: Orange,Purple. Type: Legend. Super: Champion. Tags: Miss Fortune. How to play this card: T: Give a unit Ganking this turn. It can move from battlefield to battlefield.",
+    "howToPlay": "T: Give a unit Ganking this turn. It can move from battlefield to battlefield.",
     "colors": [
       "Orange",
       "Purple"
     ],
-    "colorString": "Orange,Purple"
+    "colorString": "Orange,Purple",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Miss Fortune"
+    ]
   },
   {
-    "id": 157,
+    "id": 187,
+    "card_id": "OGN-268",
     "name": "Bullet Time",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-268/full-desktop.jpg",
     "text": "Riftbound. Bullet Time. Rarity: Epic. Color: Orange,Purple. Type: Spell. Super: Signature. Tags: Miss Fortune. How to play this card: Action Play on your turn or in showdowns.\n Pay any amount of C to deal that much damage to all enemy units at a battlefield.",
+    "howToPlay": "Action Play on your turn or in showdowns.",
     "colors": [
       "Orange",
       "Purple"
     ],
-    "colorString": "Orange,Purple"
+    "colorString": "Orange,Purple",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Miss Fortune"
+    ]
   },
   {
-    "id": 158,
+    "id": 188,
+    "card_id": "OGN-269",
     "name": "The Boss",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-269/full-desktop.jpg",
     "text": "Riftbound. The Boss. Rarity: Rare. Color: Orange,Yellow. Type: Legend. Super: Champion. Tags: Sett. How to play this card: When a buffed unit you control would die, you may pay C and exhaust me to spend its buff and recall it exhausted instead. Send it to base. This isn't a move.\n When you conquer, ready me.",
+    "howToPlay": "When a buffed unit you control would die, you may pay C and exhaust me to spend its buff and recall it exhausted instead. Send it to base. This isn't a move.",
     "colors": [
       "Orange",
       "Yellow"
     ],
-    "colorString": "Orange,Yellow"
+    "colorString": "Orange,Yellow",
+    "type": "Legend",
+    "super": "Champion",
+    "tags": [
+      "Sett"
+    ]
   },
   {
-    "id": 159,
+    "id": 189,
+    "card_id": "OGN-270",
     "name": "Showstopper",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-270/full-desktop.jpg",
     "text": "Riftbound. Showstopper. Rarity: Epic. Color: Orange,Yellow. Type: Spell. Super: Signature. Tags: Sett. How to play this card: Buff a friendly unit in your base, then move it to a battlefield. If it doesn't have a buff, it gets a +1 S buff.",
+    "howToPlay": "Buff a friendly unit in your base, then move it to a battlefield. If it doesn't have a buff, it gets a +1 S buff.",
     "colors": [
       "Orange",
       "Yellow"
     ],
-    "colorString": "Orange,Yellow"
+    "colorString": "Orange,Yellow",
+    "type": "Spell",
+    "super": "Signature",
+    "tags": [
+      "Sett"
+    ]
   },
   {
-    "id": 160,
+    "id": 190,
+    "card_id": "OGN-273",
     "name": "Recruit (ZN)",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-273/full-desktop.jpg",
     "text": "Riftbound. Recruit (ZN). Rarity: Common. Color: Colorless. Type: Unit. Super: Token. Tags: Recruit. How to play this card: No instructions provided.",
+    "howToPlay": "No instructions provided.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Unit",
+    "super": "Token",
+    "tags": [
+      "Recruit"
+    ]
   },
   {
-    "id": 161,
+    "id": 191,
+    "card_id": "OGN-275",
     "name": "Altar to Unity",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-275/full-desktop.jpg",
     "text": "Riftbound. Altar to Unity. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: When you hold here, play a 1 S Recruit unit token in your base.",
+    "howToPlay": "When you hold here, play a 1 S Recruit unit token in your base.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
   },
   {
-    "id": 162,
+    "id": 192,
+    "card_id": "OGN-276",
     "name": "Aspirant's Climb",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-276/full-desktop.jpg",
     "text": "Riftbound. Aspirant's Climb. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: Increase the points needed to win the game by 1.",
+    "howToPlay": "Increase the points needed to win the game by 1.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
   },
   {
-    "id": 163,
+    "id": 193,
+    "card_id": "OGN-277",
     "name": "Back-Alley Bar",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-277/full-desktop.jpg",
     "text": "Riftbound. Back-Alley Bar. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: When a unit moves from here, give it +1 S this turn.",
+    "howToPlay": "When a unit moves from here, give it +1 S this turn.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
   },
   {
-    "id": 164,
+    "id": 194,
+    "card_id": "OGN-278",
+    "name": "Bandle Tree",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-278/full-desktop.jpg",
+    "text": "Riftbound. Bandle Tree. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: You may hide an additional card here.",
+    "howToPlay": "You may hide an additional card here.",
+    "colors": [],
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 195,
+    "card_id": "OGN-284",
+    "name": "Obelisk of Power",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-284/full-desktop.jpg",
+    "text": "Riftbound. Obelisk of Power. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: At the start of each player's first Beginning Phase, that player channels 1 rune.",
+    "howToPlay": "At the start of each player's first Beginning Phase, that player channels 1 rune.",
+    "colors": [],
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 196,
+    "card_id": "OGN-290",
+    "name": "The Arena's Greatest",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-290/full-desktop.jpg",
+    "text": "Riftbound. The Arena's Greatest. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: At the start of each player's first Beginning Phase, that player gains 1 point.",
+    "howToPlay": "At the start of each player's first Beginning Phase, that player gains 1 point.",
+    "colors": [],
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 197,
+    "card_id": "OGN-291",
+    "name": "The Candlelit Sanctum",
+    "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-291/full-desktop.jpg",
+    "text": "Riftbound. The Candlelit Sanctum. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: When you conquer here, look at the top two cards of your Main Deck. You may recycle one or both of them. Put those you don't back in any order.",
+    "howToPlay": "When you conquer here, look at the top two cards of your Main Deck. You may recycle one or both of them. Put those you don't back in any order.",
+    "colors": [],
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
+  },
+  {
+    "id": 198,
+    "card_id": "OGN-297",
     "name": "Windswept Hillock",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-297/full-desktop.jpg",
     "text": "Riftbound. Windswept Hillock. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: Units here have Ganking. They can move from battlefield to battlefield.",
+    "howToPlay": "Units here have Ganking. They can move from battlefield to battlefield.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
   },
   {
-    "id": 165,
+    "id": 199,
+    "card_id": "OGN-298",
     "name": "Zaun Warrens",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-298/full-desktop.jpg",
     "text": "Riftbound. Zaun Warrens. Rarity: Uncommon. Color: Colorless. Type: Battlefield. Super: None. Tags: None. How to play this card: When you conquer here, discard 1, then draw 1.",
+    "howToPlay": "When you conquer here, discard 1, then draw 1.",
     "colors": [],
-    "colorString": "Colorless"
+    "colorString": "Colorless",
+    "type": "Battlefield",
+    "super": "None",
+    "tags": []
   },
   {
-    "id": 166,
+    "id": 200,
+    "card_id": "OGN-300",
     "name": "Relentless Storm",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-300/full-desktop.jpg",
     "text": "Riftbound. Relentless Storm. Rarity: Rare. Color: Red,Orange. Type: Legend. Super: None. Tags: Volibear. How to play this card: When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
+    "howToPlay": "When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
     "colors": [
       "Red",
       "Orange"
     ],
-    "colorString": "Red,Orange"
+    "colorString": "Red,Orange",
+    "type": "Legend",
+    "super": "None",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
-    "id": 167,
+    "id": 201,
+    "card_id": "OGN-300s",
     "name": "Relentless Storm",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-300s/full-desktop.jpg",
     "text": "Riftbound. Relentless Storm. Rarity: Rare. Color: Red,Orange. Type: Legend. Super: None. Tags: Volibear. How to play this card: When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
+    "howToPlay": "When you play a Mighty unit, you may exhaust me to channel 1 rune exhausted. A unit is Mighty while it has 5+ S.",
     "colors": [
       "Red",
       "Orange"
     ],
-    "colorString": "Red,Orange"
+    "colorString": "Red,Orange",
+    "type": "Legend",
+    "super": "None",
+    "tags": [
+      "Volibear"
+    ]
   },
   {
-    "id": 168,
+    "id": 202,
+    "card_id": "OGN-305",
     "name": "Unforgiven",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-305/full-desktop.jpg",
     "text": "Riftbound. Unforgiven . Rarity: Rare. Color: Green,Purple. Type: Legend. Super: None. Tags: Yasuo. How to play this card: 2, T: Move a friendly unit to or from its base.",
+    "howToPlay": "2, T: Move a friendly unit to or from its base.",
     "colors": [
       "Green",
       "Purple"
     ],
-    "colorString": "Green,Purple"
+    "colorString": "Green,Purple",
+    "type": "Legend",
+    "super": "None",
+    "tags": [
+      "Yasuo"
+    ]
   },
   {
-    "id": 169,
+    "id": 203,
+    "card_id": "OGN-305s",
     "name": "Unforgiven",
     "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-305s/full-desktop.jpg",
     "text": "Riftbound. Unforgiven. Rarity: Rare. Color: Green,Purple. Type: Legend. Super: None. Tags: Yasuo. How to play this card: 2, T: Move a friendly unit to or from its base.",
+    "howToPlay": "2, T: Move a friendly unit to or from its base.",
     "colors": [
       "Green",
       "Purple"
     ],
-    "colorString": "Green,Purple"
+    "colorString": "Green,Purple",
+    "type": "Legend",
+    "super": "None",
+    "tags": [
+      "Yasuo"
+    ]
   }
 ]
