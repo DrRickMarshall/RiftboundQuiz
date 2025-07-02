@@ -102,7 +102,7 @@ class RiftboundScraper:
             rarity = rarity_match.group(1).strip() if rarity_match else ''
 
             # Extract card_id from image URL (e.g., .../OGN-123.png)
-            card_id_match = re.search(r'(OGN-[\w\d]+)', src)
+            card_id_match = re.search(r'/([A-Z]+-\d+[a-z]*)/', src)
             card_id = card_id_match.group(1) if card_id_match else ''
             
             # Extract type (example: "Type: Spell." or "Type: Unit.")
