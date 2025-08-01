@@ -93,6 +93,133 @@
             border-color: #c89b3c;
         }
         
+        /* Gallery Mode Styles */
+        .gallery-container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .search-bar {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 18px;
+            background: rgba(30, 35, 40, 0.9);
+            border: 2px solid #c89b3c;
+            border-radius: 8px;
+            color: #f0e6d2;
+            margin-bottom: 20px;
+        }
+        
+        .search-bar:focus {
+            outline: none;
+            box-shadow: 0 0 15px rgba(200, 155, 60, 0.5);
+        }
+        
+        .search-bar::placeholder {
+            color: #8a7c65;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
+        .gallery-card {
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #1e2328;
+            border: 2px solid #3c4043;
+        }
+        
+        .gallery-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            border-color: #c89b3c;
+        }
+        
+        .gallery-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .card-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            overflow: auto;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .card-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            position: relative;
+            max-width: 400px;
+            max-height: 72vh;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .modal-card-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            font-size: 36px;
+            color: #f0e6d2;
+            cursor: pointer;
+            background: none;
+            border: none;
+            transition: color 0.3s ease;
+        }
+        
+        .modal-close:hover {
+            color: #c89b3c;
+        }
+        
+        .gallery-stats {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #cdbe91;
+            font-size: 16px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { 
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to { 
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
         .filter-controls {
             display: flex;
             flex-wrap: wrap;
@@ -241,15 +368,15 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 36%;
-            background: #1e2328; /*linear-gradient(to bottom, 
+            height: 40%;
+            background: linear-gradient(to top, 
                 #1e2328 0%, 
                 #1e2328 50%,
                 rgba(30, 35, 40, 0.98) 70%,
                 rgba(30, 35, 40, 0.9) 85%,
                 rgba(30, 35, 40, 0.5) 95%,
                 transparent 100%
-            );*/
+            );
             display: flex;
             align-items: center;
             justify-content: center;
@@ -379,10 +506,10 @@
         
         .name-overlay {
             position: absolute;
-            bottom: 34%;
+            bottom: 2%;
             left: 10px;
             right: 10px;
-            height: 65px;
+            height: 60px;
             background: #1e2328;
             border: 2px solid #c89b3c;
             border-radius: 8px;
@@ -547,6 +674,14 @@
         <p>Master your card knowledge with three learning modes!</p>
     </div>
     
+    <!-- Card Modal for Gallery View -->
+    <div id="cardModal" class="card-modal" onclick="closeModal(event)">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal(event)">&times;</button>
+            <img id="modalCardImage" class="modal-card-image" src="" alt="">
+        </div>
+    </div>
+    
     <div class="main-container">
         <div class="scraper-section" id="scraperSection">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
@@ -674,6 +809,7 @@ if __name__ == '__main__':
                 <button class="mode-btn active" onclick="switchMode('selflearn')">📖 Self Learn</button>
                 <button class="mode-btn" onclick="switchMode('namequiz')">🎯 Name Quiz</button>
                 <button class="mode-btn" onclick="switchMode('costquiz')">💎 Cost Quiz</button>
+                <button class="mode-btn" onclick="switchMode('gallery')">🖼️ Gallery</button>
             </div>
             
             <div class="filter-controls">
@@ -966,6 +1102,12 @@ if __name__ == '__main__':
         function displayCard() {
             const quizArea = document.getElementById('quizArea');
             
+            if (currentMode === 'gallery') {
+                // Gallery Mode
+                displayGallery();
+                return;
+            }
+            
             if (filteredCards.length === 0) {
                 quizArea.innerHTML = `
                     <div class="no-cards">
@@ -1054,6 +1196,88 @@ if __name__ == '__main__':
             }
             
             updateStats();
+        }
+        
+        function displayGallery() {
+            const quizArea = document.getElementById('quizArea');
+            
+            quizArea.innerHTML = `
+                <div class="gallery-container">
+                    <input type="text" 
+                           class="search-bar" 
+                           id="gallerySearch" 
+                           placeholder="Search cards by name, color, type, or tags..." 
+                           onkeyup="filterGallery()">
+                    
+                    <div class="gallery-stats" id="galleryStats">
+                        Showing <span id="visibleCount">0</span> of <span id="totalGalleryCount">0</span> cards
+                    </div>
+                    
+                    <div class="card-grid" id="cardGrid">
+                        <!-- Cards will be populated here -->
+                    </div>
+                </div>
+            `;
+            
+            renderGallery();
+        }
+        
+        function renderGallery(searchTerm = '') {
+            const grid = document.getElementById('cardGrid');
+            const searchLower = searchTerm.toLowerCase();
+            
+            // Filter cards based on search
+            let galleryCards = filteredCards;
+            if (searchTerm) {
+                galleryCards = filteredCards.filter(card => {
+                    return card.name.toLowerCase().includes(searchLower) ||
+                           card.colors.some(color => color.toLowerCase().includes(searchLower)) ||
+                           (card.type && card.type.toLowerCase().includes(searchLower)) ||
+                           (card.tags && card.tags.some(tag => tag.toLowerCase().includes(searchLower))) ||
+                           (card.rarity && card.rarity.toLowerCase().includes(searchLower));
+                });
+            }
+            
+            // Update stats
+            document.getElementById('visibleCount').textContent = galleryCards.length;
+            document.getElementById('totalGalleryCount').textContent = filteredCards.length;
+            
+            // Render cards
+            grid.innerHTML = galleryCards.map(card => `
+                <div class="gallery-card" onclick="showCardModal('${card.image}', '${card.name.replace(/'/g, "\\'")}')">
+                    <img src="${card.image}" 
+                         alt="${card.name}" 
+                         onerror="this.src='https://via.placeholder.com/200x280/1e2328/c89b3c?text=${encodeURIComponent(card.name)}'">
+                </div>
+            `).join('');
+        }
+        
+        function filterGallery() {
+            const searchTerm = document.getElementById('gallerySearch').value;
+            renderGallery(searchTerm);
+        }
+        
+        function showCardModal(imageSrc, cardName) {
+            const modal = document.getElementById('cardModal');
+            const modalImage = document.getElementById('modalCardImage');
+            
+            modalImage.src = imageSrc;
+            modalImage.alt = cardName;
+            modalImage.onerror = function() {
+                this.src = `https://via.placeholder.com/500x700/1e2328/c89b3c?text=${encodeURIComponent(cardName)}`;
+            };
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+        
+        function closeModal(event) {
+            // Only close if clicking the background or close button
+            if (event.target.id === 'cardModal' || event.target.classList.contains('modal-close')) {
+                const modal = document.getElementById('cardModal');
+                modal.classList.remove('active');
+                document.body.style.overflow = ''; // Restore scrolling
+            }
         }
         
         function toggleCard() {
